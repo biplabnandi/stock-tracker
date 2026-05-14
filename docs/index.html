@@ -83,6 +83,21 @@
         <div class="sectors-bar" id="sectors-bar"></div>
     </section>
 
+    <!-- ─── Trending Alerts ──────────────────────────────────── -->
+    <section class="trending-section" id="trending-section" style="display:none;">
+        <h2 class="section-title">🔥 Trending Stocks</h2>
+        <div class="trending-lists">
+            <div class="trending-col">
+                <h3 class="trending-col-title improving">📈 Improving Streak</h3>
+                <div class="trending-list" id="trending-improving"></div>
+            </div>
+            <div class="trending-col">
+                <h3 class="trending-col-title declining">📉 Declining Streak</h3>
+                <div class="trending-list" id="trending-declining"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- ─── Filters ──────────────────────────────────────────── -->
     <section class="filters-section" id="filters-section">
         <div class="filter-group">
@@ -111,6 +126,8 @@
                     <option value="technical_desc">Technical ↓</option>
                     <option value="event_desc">Event ↓</option>
                     <option value="scoredelta_desc">Score Change ↓</option>
+                    <option value="streak_desc">Streak ↓ (Improving)</option>
+                    <option value="streak_asc">Streak ↑ (Declining)</option>
                     <option value="change_1m_desc">1M Change ↓</option>
                     <option value="change_3m_desc">3M Change ↓</option>
                     <option value="name_asc">Name A→Z</option>
@@ -190,6 +207,7 @@
                 <button class="modal-tab active" data-tab="fundamentals" id="tab-fundamentals">📊 Fundamentals</button>
                 <button class="modal-tab" data-tab="technicals" id="tab-technicals">📈 Technicals</button>
                 <button class="modal-tab" data-tab="events" id="tab-events">🗓️ Events</button>
+                <button class="modal-tab" data-tab="history" id="tab-history">📉 Score History</button>
                 <button class="modal-tab" data-tab="changes" id="tab-changes">💹 Performance</button>
             </div>
 

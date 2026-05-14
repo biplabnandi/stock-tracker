@@ -160,7 +160,7 @@ def run_scan(subset: list[dict] | None = None):
     # ── Generate summary ───────────────────────────────────────────
     summary = generate_summary(results)
 
-    # ── Historical score tracking ──────────────────────────────────
+    # ── Historical score tracking ──────────────────────────────
     history_file = os.path.join(OUTPUT_DIR, "history.json")
     history = []
     prev_scores = {}
@@ -175,7 +175,13 @@ def run_scan(subset: list[dict] | None = None):
     except Exception as e:
         logger.warning(f"Could not load history: {e}")
 
-    # Add score_change to each result
+    # Build per-ticker score timeline from history (before appending current)
+    ticker_timeline = {}  # ticker -> [score1, score2, ...] in chronological order
+    for scan_entry in history:
+        for s in scan_entry.get("scores", []):
+            ticker_timeline.setdefault(s["ticker"], []).append(s["composite"])
+
+    # Add score_change, score_history, and score_streak to each result
     for stock in results:
         ticker = stock["ticker"]
         prev = prev_scores.get(ticker)
@@ -183,6 +189,32 @@ def run_scan(subset: list[dict] | None = None):
             stock["score_change"] = round(stock["scores"]["composite"] - prev, 1)
         else:
             stock["score_change"] = None
+
+        # Score history: past scores + current (keep last 15 data points)
+        past = ticker_timeline.get(ticker, [])
+        current = stock["scores"]["composite"]
+        full_history = past + [current]
+        stock["score_history"] = full_history[-15:]
+
+        # Score streak: count consecutive improvements (+) or declines (-)
+        streak = 0
+        if len(full_history) >= 2:
+            # Walk backwards from the most recent pair
+            for i in range(len(full_history) - 1, 0, -1):
+                diff = full_history[i] - full_history[i - 1]
+                if diff > 0:
+                    if streak >= 0:
+                        streak += 1
+                    else:
+                        break  # direction changed
+                elif diff < 0:
+                    if streak <= 0:
+                        streak -= 1
+                    else:
+                        break
+                else:
+                    break  # no change, streak stops
+        stock["score_streak"] = streak
 
     # Append current scan to history (keep last 30 entries)
     scan_date = datetime.now().isoformat()

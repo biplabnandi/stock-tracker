@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const data = await res.json();
     allStocks = data.stocks || [];
     renderDashboard(data);
+    renderTrendingAlerts();
     setupFilters();
     applyFilters();
   } catch (err) {
@@ -148,6 +149,7 @@ function applyFilters() {
     else if (field === 'technical') { va = a.scores.technical; vb = b.scores.technical; }
     else if (field === 'event') { va = a.scores.event; vb = b.scores.event; }
     else if (field === 'scoredelta') { va = a.score_change || 0; vb = b.score_change || 0; }
+    else if (field === 'streak') { va = a.score_streak || 0; vb = b.score_streak || 0; }
     else if (field === 'change') {
       const period = currentFilters.sort.includes('1m') ? 'change_1m' : 'change_3m';
       va = a[period] || 0; vb = b[period] || 0;
@@ -210,6 +212,8 @@ function renderGrid(stocks) {
           ${scoreBar('Tech', tScore)}
           ${scoreBar('Event', eScore)}
         </div>
+        ${renderSparkline(s.score_history || [], s.tier)}
+        ${renderStreakBadge(s.score_streak || 0)}
       </div>`;
   }).join('');
 }
@@ -365,6 +369,26 @@ function renderTabContent(tab, stock) {
       ${detailItem('Near 52W High', e.near_52w_high, v => v ? 'good' : 'neutral', '', true)}
       ${detailItem('Recent Breakout', e.recent_breakout, v => v ? 'good' : 'neutral', '', true)}
     </div>`;
+  } else if (tab === 'history') {
+    const hist = stock.score_history || [];
+    const streak = stock.score_streak || 0;
+    const streakText = streak > 0 ? `🔥 ${streak} scan${streak > 1 ? 's' : ''} improving` : streak < 0 ? `❄️ ${Math.abs(streak)} scan${Math.abs(streak) > 1 ? 's' : ''} declining` : '— Stable';
+    const streakClass = streak > 0 ? 'good' : streak < 0 ? 'bad' : 'neutral';
+
+    el.innerHTML = `
+      <div class="history-streak-banner ${streakClass}">
+        <span class="streak-label">Streak</span>
+        <span class="streak-value">${streakText}</span>
+      </div>
+      ${renderHistoryChart(hist, stock.tier)}
+      <div class="history-data-row">
+        ${hist.length >= 2 ? `<div class="detail-item"><span class="detail-label">First recorded</span><span class="detail-value neutral">${hist[0]}</span></div>
+        <div class="detail-item"><span class="detail-label">Latest</span><span class="detail-value neutral">${hist[hist.length-1]}</span></div>
+        <div class="detail-item"><span class="detail-label">Min</span><span class="detail-value bad">${Math.min(...hist).toFixed(1)}</span></div>
+        <div class="detail-item"><span class="detail-label">Max</span><span class="detail-value good">${Math.max(...hist).toFixed(1)}</span></div>
+        <div class="detail-item"><span class="detail-label">Net Change</span><span class="detail-value ${hist[hist.length-1]-hist[0] >= 0 ? 'good':'bad'}">${(hist[hist.length-1]-hist[0] >= 0 ? '+' : '')}${(hist[hist.length-1]-hist[0]).toFixed(1)}</span></div>
+        <div class="detail-item"><span class="detail-label">Scans Tracked</span><span class="detail-value neutral">${hist.length}</span></div>` : '<p style="color:var(--text-muted);text-align:center;padding:2rem;">Not enough history yet. Score trends appear after 2+ scans.</p>'}
+      </div>`;
   } else if (tab === 'changes') {
     el.innerHTML = `
       <div class="changes-row">
@@ -418,4 +442,166 @@ function formatLargeNumber(n) {
   if (n >= 1e7) return (n / 1e7).toFixed(1) + 'Cr';
   if (n >= 1e5) return (n / 1e5).toFixed(1) + 'L';
   return n.toLocaleString('en-IN');
+}
+
+// ─── Sparklines ────────────────────────────────────────────
+function renderSparkline(history, tier) {
+  if (!history || history.length < 2) return '';
+  const w = 100, h = 28, pad = 2;
+  const min = Math.min(...history) - 1;
+  const max = Math.max(...history) + 1;
+  const range = max - min || 1;
+  const stepX = (w - pad * 2) / (history.length - 1);
+
+  const points = history.map((v, i) => {
+    const x = pad + i * stepX;
+    const y = h - pad - ((v - min) / range) * (h - pad * 2);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  });
+
+  const tierColors = { strong_buy: '#00d68f', buy: '#4da6ff', watch: '#ffc048', avoid: '#ff6b6b' };
+  const color = tierColors[tier] || '#6c5ce7';
+  const last = history[history.length - 1];
+  const first = history[0];
+  const trendColor = last >= first ? '#00d68f' : '#ff6b6b';
+
+  // Gradient fill
+  const fillPoints = `${pad.toFixed(1)},${(h - pad).toFixed(1)} ${points.join(' ')} ${(pad + (history.length - 1) * stepX).toFixed(1)},${(h - pad).toFixed(1)}`;
+
+  return `
+    <div class="card-sparkline">
+      <svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="sparkGrad-${tier}" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="${trendColor}" stop-opacity="0.3"/>
+            <stop offset="100%" stop-color="${trendColor}" stop-opacity="0.02"/>
+          </linearGradient>
+        </defs>
+        <polygon points="${fillPoints}" fill="url(#sparkGrad-${tier})" />
+        <polyline points="${points.join(' ')}" fill="none" stroke="${trendColor}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="${points[points.length-1].split(',')[0]}" cy="${points[points.length-1].split(',')[1]}" r="2" fill="${trendColor}" />
+      </svg>
+    </div>`;
+}
+
+function renderStreakBadge(streak) {
+  if (streak === 0) return '';
+  if (streak >= 2) {
+    return `<div class="card-streak-badge improving" title="${streak} consecutive scans improving">🔥 ${streak} scan streak</div>`;
+  } else if (streak <= -2) {
+    return `<div class="card-streak-badge declining" title="${Math.abs(streak)} consecutive scans declining">❄️ ${Math.abs(streak)} scan streak</div>`;
+  }
+  return '';
+}
+
+// ─── Trending Alerts ───────────────────────────────────────
+function renderTrendingAlerts() {
+  const improving = allStocks.filter(s => (s.score_streak || 0) >= 2)
+    .sort((a, b) => b.score_streak - a.score_streak)
+    .slice(0, 8);
+  const declining = allStocks.filter(s => (s.score_streak || 0) <= -2)
+    .sort((a, b) => a.score_streak - b.score_streak)
+    .slice(0, 8);
+
+  const section = document.getElementById('trending-section');
+  if (improving.length === 0 && declining.length === 0) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = '';
+
+  const impEl = document.getElementById('trending-improving');
+  const decEl = document.getElementById('trending-declining');
+
+  impEl.innerHTML = improving.length ? improving.map(s => trendingChip(s, 'improving')).join('') : '<span class="trending-empty">No stocks with 2+ scan improvement streak</span>';
+  decEl.innerHTML = declining.length ? declining.map(s => trendingChip(s, 'declining')).join('') : '<span class="trending-empty">No stocks with 2+ scan decline streak</span>';
+}
+
+function trendingChip(stock, type) {
+  const streak = Math.abs(stock.score_streak || 0);
+  const icon = type === 'improving' ? '🔥' : '❄️';
+  const cls = type === 'improving' ? 'improving' : 'declining';
+  return `<div class="trending-chip ${cls}" onclick="openModal('${stock.ticker}')">
+    <span class="trending-chip-name">${stock.ticker}</span>
+    <span class="trending-chip-score">${stock.scores.composite}</span>
+    <span class="trending-chip-streak">${icon} ${streak}</span>
+    ${renderMiniSparkline(stock.score_history || [], type)}
+  </div>`;
+}
+
+function renderMiniSparkline(history, type) {
+  if (!history || history.length < 2) return '';
+  const w = 48, h = 16, pad = 1;
+  const min = Math.min(...history) - 1;
+  const max = Math.max(...history) + 1;
+  const range = max - min || 1;
+  const stepX = (w - pad * 2) / (history.length - 1);
+  const points = history.map((v, i) => {
+    const x = pad + i * stepX;
+    const y = h - pad - ((v - min) / range) * (h - pad * 2);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  });
+  const color = type === 'improving' ? '#00d68f' : '#ff6b6b';
+  return `<svg class="trending-mini-spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+    <polyline points="${points.join(' ')}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>`;
+}
+
+// ─── Modal History Chart ───────────────────────────────────
+function renderHistoryChart(history, tier) {
+  if (!history || history.length < 2) return '<div class="history-chart-empty">Not enough data for chart</div>';
+  const w = 580, h = 180, padX = 40, padY = 25;
+  const chartW = w - padX * 2;
+  const chartH = h - padY * 2;
+  const min = Math.min(...history) - 2;
+  const max = Math.max(...history) + 2;
+  const range = max - min || 1;
+  const stepX = chartW / (history.length - 1);
+
+  const tierColors = { strong_buy: '#00d68f', buy: '#4da6ff', watch: '#ffc048', avoid: '#ff6b6b' };
+  const color = tierColors[tier] || '#6c5ce7';
+  const last = history[history.length - 1];
+  const first = history[0];
+  const trendColor = last >= first ? '#00d68f' : '#ff6b6b';
+
+  const points = history.map((v, i) => {
+    const x = padX + i * stepX;
+    const y = padY + chartH - ((v - min) / range) * chartH;
+    return { x, y, v };
+  });
+
+  const polyline = points.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+  const fillPoly = `${padX},${padY + chartH} ${polyline} ${points[points.length-1].x.toFixed(1)},${padY + chartH}`;
+
+  // Y-axis labels
+  const ySteps = 4;
+  const yLabels = Array.from({length: ySteps + 1}, (_, i) => {
+    const v = min + (range / ySteps) * i;
+    const y = padY + chartH - (i / ySteps) * chartH;
+    return `<text x="${padX - 6}" y="${y + 3}" text-anchor="end" fill="#505a78" font-size="10" font-family="JetBrains Mono, monospace">${v.toFixed(0)}</text>
+    <line x1="${padX}" y1="${y}" x2="${w - padX}" y2="${y}" stroke="rgba(255,255,255,0.04)" stroke-width="1" />`;
+  }).join('');
+
+  // Data points with hover circles
+  const dots = points.map((p, i) =>
+    `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="${trendColor}" stroke="var(--bg-secondary)" stroke-width="1.5" opacity="0.85">
+      <title>Scan ${i + 1}: ${p.v.toFixed(1)}</title>
+    </circle>`
+  ).join('');
+
+  return `
+  <div class="history-chart-container">
+    <svg viewBox="0 0 ${w} ${h}" class="history-chart-svg">
+      <defs>
+        <linearGradient id="histGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="${trendColor}" stop-opacity="0.25" />
+          <stop offset="100%" stop-color="${trendColor}" stop-opacity="0.02" />
+        </linearGradient>
+      </defs>
+      ${yLabels}
+      <polygon points="${fillPoly}" fill="url(#histGrad)" />
+      <polyline points="${polyline}" fill="none" stroke="${trendColor}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      ${dots}
+    </svg>
+  </div>`;
 }
