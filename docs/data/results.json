@@ -1,0 +1,438 @@
+{
+  "scan_date": "2026-05-15T02:21:02.750693",
+  "total_scanned": 5,
+  "total_analyzed": 5,
+  "total_failed": 0,
+  "stocks": [
+    {
+      "ticker": "CANFINHOME",
+      "full_ticker": "CANFINHOME.NS",
+      "name": "Can Fin Homes",
+      "sector": "Finance",
+      "category": "smallcap",
+      "current_price": 827.4,
+      "market_cap": 112275562496,
+      "industry": "Mortgage Finance",
+      "change_1d": -0.53,
+      "change_1w": -8.4,
+      "change_1m": -1.82,
+      "change_3m": -10.87,
+      "change_6m": -5.34,
+      "scores": {
+        "fundamental": 70.3,
+        "technical": 59.2,
+        "event": 58.2,
+        "composite": 63.4
+      },
+      "tier": "buy",
+      "fundamentals": {
+        "pe_ratio": 10.35,
+        "pb_ratio": 2.06,
+        "roe": 19.66,
+        "revenue_growth": 2.29,
+        "profit_growth": 30.55,
+        "debt_to_equity": 6.37,
+        "promoter_holding": 38.69,
+        "current_ratio": 139.58
+      },
+      "fundamental_scores": {
+        "pe_score": 95,
+        "pb_score": 80,
+        "roe_score": 80,
+        "revenue_growth_score": 45,
+        "profit_growth_score": 95,
+        "debt_equity_score": 20,
+        "promoter_holding_score": 60,
+        "current_ratio_score": 90
+      },
+      "technicals": {
+        "rsi": 40.02,
+        "macd": -1.3665,
+        "macd_signal": "strong_bearish",
+        "sma50": 851.03,
+        "sma200": 843.93,
+        "ema20": 866.22,
+        "adx": 14.26,
+        "bollinger_position": "near_lower",
+        "volume_trend": "accumulation",
+        "pct_from_52w_high": 14.83,
+        "price_vs_ema20": "below",
+        "sma50_above_sma200": true,
+        "golden_cross": true
+      },
+      "technical_scores": {
+        "rsi_score": 85,
+        "macd_score": 20,
+        "ma_score": 65,
+        "bollinger_score": 75,
+        "adx_score": 35,
+        "volume_score": 70,
+        "w52_score": 80
+      },
+      "events": {
+        "quarters_available": 5,
+        "revenue_trend": "mild_growth",
+        "profit_trend": "strong_growth",
+        "result_surprise": "positive",
+        "recent_dividend": false,
+        "recent_split_bonus": false,
+        "near_52w_high": false,
+        "above_all_sma": false,
+        "recent_breakout": false
+      },
+      "event_scores": {
+        "results_score": 76,
+        "dividend_score": 40,
+        "action_score": 45,
+        "momentum_score": 45
+      }
+    },
+    {
+      "ticker": "CAMPUS",
+      "full_ticker": "CAMPUS.NS",
+      "name": "Campus Activewear",
+      "sector": "FMCG",
+      "category": "smallcap",
+      "current_price": 239.88,
+      "market_cap": 73330147328,
+      "industry": "Footwear & Accessories",
+      "change_1d": -1.53,
+      "change_1w": -3.39,
+      "change_1m": 0.92,
+      "change_3m": -12.23,
+      "change_6m": -13.34,
+      "scores": {
+        "fundamental": 65.6,
+        "technical": 50.5,
+        "event": 64.5,
+        "composite": 60.0
+      },
+      "tier": "buy",
+      "fundamentals": {
+        "pe_ratio": 52.05,
+        "pb_ratio": 9.19,
+        "roe": null,
+        "revenue_growth": 52.25,
+        "profit_growth": 217.29,
+        "debt_to_equity": 0.48,
+        "promoter_holding": 72.13,
+        "current_ratio": null
+      },
+      "fundamental_scores": {
+        "pe_score": 40,
+        "pb_score": 20,
+        "roe_score": 30,
+        "revenue_growth_score": 95,
+        "profit_growth_score": 95,
+        "debt_equity_score": 85,
+        "promoter_holding_score": 95,
+        "current_ratio_score": 40
+      },
+      "technicals": {
+        "rsi": 43.28,
+        "macd": 0.7351,
+        "macd_signal": "bearish_crossover",
+        "sma50": 240.96,
+        "sma200": 261.85,
+        "ema20": 245.88,
+        "adx": 20.93,
+        "bollinger_position": "near_lower",
+        "volume_trend": "mild_accumulation",
+        "pct_from_52w_high": 21.2,
+        "price_vs_ema20": "below",
+        "sma50_above_sma200": false,
+        "golden_cross": false
+      },
+      "technical_scores": {
+        "rsi_score": 85,
+        "macd_score": 35,
+        "ma_score": 20,
+        "bollinger_score": 75,
+        "adx_score": 55,
+        "volume_score": 55,
+        "w52_score": 55
+      },
+      "events": {
+        "quarters_available": 6,
+        "revenue_trend": "strong_growth",
+        "profit_trend": "strong_growth",
+        "result_surprise": "positive",
+        "recent_dividend": false,
+        "recent_split_bonus": false,
+        "near_52w_high": false,
+        "above_all_sma": false,
+        "recent_breakout": false
+      },
+      "event_scores": {
+        "results_score": 90,
+        "dividend_score": 40,
+        "action_score": 45,
+        "momentum_score": 45
+      }
+    },
+    {
+      "ticker": "PERSISTENT",
+      "full_ticker": "PERSISTENT.NS",
+      "name": "Persistent Systems",
+      "sector": "IT",
+      "category": "midcap",
+      "current_price": 4845.0,
+      "market_cap": 723162234880,
+      "industry": "Information Technology Services",
+      "change_1d": -0.66,
+      "change_1w": -3.37,
+      "change_1m": -9.9,
+      "change_3m": -17.21,
+      "change_6m": -15.89,
+      "scores": {
+        "fundamental": 67.8,
+        "technical": 51.2,
+        "event": 59.1,
+        "composite": 59.8
+      },
+      "tier": "watch",
+      "fundamentals": {
+        "pe_ratio": 39.0,
+        "pb_ratio": 9.24,
+        "roe": 26.35,
+        "revenue_growth": 7.35,
+        "profit_growth": 20.44,
+        "debt_to_equity": 0.06,
+        "promoter_holding": 33.02,
+        "current_ratio": 2.43
+      },
+      "fundamental_scores": {
+        "pe_score": 60,
+        "pb_score": 20,
+        "roe_score": 95,
+        "revenue_growth_score": 45,
+        "profit_growth_score": 80,
+        "debt_equity_score": 95,
+        "promoter_holding_score": 40,
+        "current_ratio_score": 75
+      },
+      "technicals": {
+        "rsi": 42.25,
+        "macd": -48.8074,
+        "macd_signal": "bullish_crossover",
+        "sma50": 4954.39,
+        "sma200": 5541.54,
+        "ema20": 4980.61,
+        "adx": 20.08,
+        "bollinger_position": "lower_half",
+        "volume_trend": "distribution",
+        "pct_from_52w_high": 26.58,
+        "price_vs_ema20": "below",
+        "sma50_above_sma200": false,
+        "golden_cross": false
+      },
+      "technical_scores": {
+        "rsi_score": 85,
+        "macd_score": 75,
+        "ma_score": 20,
+        "bollinger_score": 65,
+        "adx_score": 55,
+        "volume_score": 30,
+        "w52_score": 30
+      },
+      "events": {
+        "quarters_available": 6,
+        "revenue_trend": "mild_growth",
+        "profit_trend": "growth",
+        "result_surprise": "positive",
+        "recent_dividend": false,
+        "recent_split_bonus": false,
+        "near_52w_high": false,
+        "above_all_sma": false,
+        "recent_breakout": false
+      },
+      "event_scores": {
+        "results_score": 78,
+        "dividend_score": 40,
+        "action_score": 45,
+        "momentum_score": 45
+      }
+    },
+    {
+      "ticker": "DELHIVERY",
+      "full_ticker": "DELHIVERY.NS",
+      "name": "Delhivery",
+      "sector": "IT",
+      "category": "midcap",
+      "current_price": 465.2,
+      "market_cap": 352121847808,
+      "industry": "Integrated Freight & Logistics",
+      "change_1d": 0.11,
+      "change_1w": -1.23,
+      "change_1m": -0.02,
+      "change_3m": 6.67,
+      "change_6m": 8.3,
+      "scores": {
+        "fundamental": 44.6,
+        "technical": 59.0,
+        "event": 45.6,
+        "composite": 49.9
+      },
+      "tier": "watch",
+      "fundamentals": {
+        "pe_ratio": 235.15,
+        "pb_ratio": 3.66,
+        "roe": null,
+        "revenue_growth": 22.27,
+        "profit_growth": -56.52,
+        "debt_to_equity": 0.17,
+        "promoter_holding": 23.98,
+        "current_ratio": null
+      },
+      "fundamental_scores": {
+        "pe_score": 20,
+        "pb_score": 60,
+        "roe_score": 30,
+        "revenue_growth_score": 80,
+        "profit_growth_score": 10,
+        "debt_equity_score": 85,
+        "promoter_holding_score": 40,
+        "current_ratio_score": 40
+      },
+      "technicals": {
+        "rsi": 53.11,
+        "macd": 7.3699,
+        "macd_signal": "bearish_crossover",
+        "sma50": 443.77,
+        "sma200": 439.84,
+        "ema20": 464.39,
+        "adx": 15.61,
+        "bollinger_position": "lower_half",
+        "volume_trend": "neutral",
+        "pct_from_52w_high": 5.06,
+        "price_vs_ema20": "above",
+        "sma50_above_sma200": true,
+        "golden_cross": true
+      },
+      "technical_scores": {
+        "rsi_score": 85,
+        "macd_score": 35,
+        "ma_score": 95,
+        "bollinger_score": 65,
+        "adx_score": 35,
+        "volume_score": 45,
+        "w52_score": 35
+      },
+      "events": {
+        "quarters_available": 5,
+        "revenue_trend": "strong_growth",
+        "profit_trend": "decline",
+        "result_surprise": "negative",
+        "recent_dividend": false,
+        "recent_split_bonus": false,
+        "near_52w_high": false,
+        "above_all_sma": false,
+        "recent_breakout": false
+      },
+      "event_scores": {
+        "results_score": 48,
+        "dividend_score": 40,
+        "action_score": 45,
+        "momentum_score": 45
+      }
+    },
+    {
+      "ticker": "HAPPSTMNDS",
+      "full_ticker": "HAPPSTMNDS.NS",
+      "name": "Happiest Minds",
+      "sector": "IT",
+      "category": "smallcap",
+      "current_price": 353.9,
+      "market_cap": 53575892992,
+      "industry": "Information Technology Services",
+      "change_1d": -1.68,
+      "change_1w": -8.73,
+      "change_1m": -5.31,
+      "change_3m": -8.58,
+      "change_6m": -28.45,
+      "scores": {
+        "fundamental": 48.8,
+        "technical": 40.8,
+        "event": 39.8,
+        "composite": 43.8
+      },
+      "tier": "avoid",
+      "fundamentals": {
+        "pe_ratio": 28.94,
+        "pb_ratio": 3.28,
+        "roe": 11.7,
+        "revenue_growth": 6.85,
+        "profit_growth": -29.46,
+        "debt_to_equity": 0.28,
+        "promoter_holding": 46.14,
+        "current_ratio": 1.73
+      },
+      "fundamental_scores": {
+        "pe_score": 60,
+        "pb_score": 60,
+        "roe_score": 40,
+        "revenue_growth_score": 45,
+        "profit_growth_score": 10,
+        "debt_equity_score": 85,
+        "promoter_holding_score": 60,
+        "current_ratio_score": 75
+      },
+      "technicals": {
+        "rsi": 36.83,
+        "macd": -2.8308,
+        "macd_signal": "strong_bearish",
+        "sma50": 377.25,
+        "sma200": 470.09,
+        "ema20": 375.45,
+        "adx": 13.84,
+        "bollinger_position": "near_lower",
+        "volume_trend": "mild_accumulation",
+        "pct_from_52w_high": 47.56,
+        "price_vs_ema20": "below",
+        "sma50_above_sma200": false,
+        "golden_cross": false
+      },
+      "technical_scores": {
+        "rsi_score": 70,
+        "macd_score": 20,
+        "ma_score": 20,
+        "bollinger_score": 75,
+        "adx_score": 35,
+        "volume_score": 55,
+        "w52_score": 30
+      },
+      "events": {
+        "quarters_available": 5,
+        "revenue_trend": "mild_growth",
+        "profit_trend": "decline",
+        "result_surprise": "negative",
+        "recent_dividend": false,
+        "recent_split_bonus": false,
+        "near_52w_high": false,
+        "above_all_sma": false,
+        "recent_breakout": false
+      },
+      "event_scores": {
+        "results_score": 35,
+        "dividend_score": 40,
+        "action_score": 45,
+        "momentum_score": 45
+      }
+    }
+  ],
+  "summary": {
+    "strong_buy": 0,
+    "buy": 2,
+    "watch": 2,
+    "avoid": 1,
+    "avg_score": 55.4,
+    "top_sectors": [
+      {
+        "sector": "IT",
+        "avg_score": 51.2,
+        "count": 3
+      }
+    ],
+    "total": 5
+  }
+}

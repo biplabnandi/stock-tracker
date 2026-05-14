@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockPulse — Mid & Small Cap Growth Tracker</title>
+    <meta name="description" content="AI-powered stock screening for NSE India midcap and smallcap companies. Tracks fundamentals, technicals, and events to identify growth opportunities.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ─── Loading Overlay ──────────────────────────────────── -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loader-content">
+            <div class="pulse-ring"></div>
+            <div class="loader-icon">📈</div>
+            <p class="loader-text">Loading market data...</p>
+        </div>
+    </div>
+
+    <!-- ─── Background Effects ───────────────────────────────── -->
+    <div class="bg-effects">
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- ─── Navbar ───────────────────────────────────────────── -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-icon">⚡</span>
+            <span class="brand-name">StockPulse</span>
+            <span class="brand-tag">BETA</span>
+        </div>
+        <div class="nav-meta">
+            <span class="scan-badge" id="scan-badge">
+                <span class="scan-dot"></span>
+                <span id="scan-date">—</span>
+            </span>
+        </div>
+    </nav>
+
+    <!-- ─── Hero Stats ───────────────────────────────────────── -->
+    <section class="hero-stats" id="hero-stats">
+        <div class="stat-card stat-total">
+            <div class="stat-icon">🎯</div>
+            <div class="stat-value" id="stat-total">—</div>
+            <div class="stat-label">Stocks Scanned</div>
+        </div>
+        <div class="stat-card stat-strong-buy">
+            <div class="stat-icon">🟢</div>
+            <div class="stat-value" id="stat-strong-buy">—</div>
+            <div class="stat-label">Strong Buy</div>
+        </div>
+        <div class="stat-card stat-buy">
+            <div class="stat-icon">🔵</div>
+            <div class="stat-value" id="stat-buy">—</div>
+            <div class="stat-label">Buy</div>
+        </div>
+        <div class="stat-card stat-watch">
+            <div class="stat-icon">🟡</div>
+            <div class="stat-value" id="stat-watch">—</div>
+            <div class="stat-label">Watch</div>
+        </div>
+        <div class="stat-card stat-avoid">
+            <div class="stat-icon">🔴</div>
+            <div class="stat-value" id="stat-avoid">—</div>
+            <div class="stat-label">Avoid</div>
+        </div>
+        <div class="stat-card stat-avg">
+            <div class="stat-icon">📊</div>
+            <div class="stat-value" id="stat-avg-score">—</div>
+            <div class="stat-label">Avg Score</div>
+        </div>
+    </section>
+
+    <!-- ─── Top Sectors ──────────────────────────────────────── -->
+    <section class="top-sectors-section" id="top-sectors-section">
+        <h2 class="section-title">🏆 Top Performing Sectors</h2>
+        <div class="sectors-bar" id="sectors-bar"></div>
+    </section>
+
+    <!-- ─── Filters ──────────────────────────────────────────── -->
+    <section class="filters-section" id="filters-section">
+        <div class="filter-group">
+            <div class="filter-chips" id="category-filters">
+                <button class="chip active" data-filter="all" id="filter-all">All</button>
+                <button class="chip" data-filter="midcap" id="filter-midcap">Midcap</button>
+                <button class="chip" data-filter="smallcap" id="filter-smallcap">Smallcap</button>
+            </div>
+            <div class="filter-chips" id="tier-filters">
+                <button class="chip" data-tier="strong_buy" id="filter-strong-buy">🟢 Strong Buy</button>
+                <button class="chip" data-tier="buy" id="filter-buy">🔵 Buy</button>
+                <button class="chip" data-tier="watch" id="filter-watch">🟡 Watch</button>
+                <button class="chip" data-tier="avoid" id="filter-avoid">🔴 Avoid</button>
+            </div>
+        </div>
+        <div class="filter-row">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search stock name or ticker..." autocomplete="off">
+            </div>
+            <div class="sort-select">
+                <select id="sort-select">
+                    <option value="composite_desc">Score: High → Low</option>
+                    <option value="composite_asc">Score: Low → High</option>
+                    <option value="fundamental_desc">Fundamental ↓</option>
+                    <option value="technical_desc">Technical ↓</option>
+                    <option value="event_desc">Event ↓</option>
+                    <option value="scoredelta_desc">Score Change ↓</option>
+                    <option value="change_1m_desc">1M Change ↓</option>
+                    <option value="change_3m_desc">3M Change ↓</option>
+                    <option value="name_asc">Name A→Z</option>
+                </select>
+            </div>
+            <div class="sector-select">
+                <select id="sector-select">
+                    <option value="all">All Sectors</option>
+                </select>
+            </div>
+        </div>
+        <div class="results-info">
+            <span id="results-count">0 stocks</span>
+        </div>
+    </section>
+
+    <!-- ─── Stock Grid ───────────────────────────────────────── -->
+    <section class="stocks-grid" id="stocks-grid"></section>
+
+    <!-- ─── Empty State ──────────────────────────────────────── -->
+    <div class="empty-state" id="empty-state" style="display:none;">
+        <div class="empty-icon">📭</div>
+        <h3>No stocks match your filters</h3>
+        <p>Try adjusting your search or filter criteria</p>
+    </div>
+
+    <!-- ─── Stock Detail Modal ───────────────────────────────── -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="stock-modal">
+            <button class="modal-close" id="modal-close">✕</button>
+            <div class="modal-header" id="modal-header">
+                <div class="modal-title-row">
+                    <h2 class="modal-stock-name" id="modal-stock-name"></h2>
+                    <span class="modal-tier-badge" id="modal-tier-badge"></span>
+                </div>
+                <div class="modal-subtitle">
+                    <span id="modal-ticker"></span>
+                    <span class="modal-sep">•</span>
+                    <span id="modal-sector"></span>
+                    <span class="modal-sep">•</span>
+                    <span id="modal-category"></span>
+                </div>
+                <div class="modal-price-row">
+                    <span class="modal-price" id="modal-price"></span>
+                    <span class="modal-change" id="modal-change-1d"></span>
+                </div>
+            </div>
+
+            <div class="modal-scores" id="modal-scores">
+                <div class="score-ring-container">
+                    <canvas id="score-ring-canvas" width="160" height="160"></canvas>
+                    <div class="score-ring-label">
+                        <span class="score-ring-value" id="score-ring-value"></span>
+                        <span class="score-ring-text">COMPOSITE</span>
+                    </div>
+                </div>
+                <div class="score-bars">
+                    <div class="score-bar-item">
+                        <span class="score-bar-label">Fundamental</span>
+                        <div class="score-bar-track"><div class="score-bar-fill" id="bar-fundamental"></div></div>
+                        <span class="score-bar-value" id="val-fundamental"></span>
+                    </div>
+                    <div class="score-bar-item">
+                        <span class="score-bar-label">Technical</span>
+                        <div class="score-bar-track"><div class="score-bar-fill" id="bar-technical"></div></div>
+                        <span class="score-bar-value" id="val-technical"></span>
+                    </div>
+                    <div class="score-bar-item">
+                        <span class="score-bar-label">Events</span>
+                        <div class="score-bar-track"><div class="score-bar-fill" id="bar-event"></div></div>
+                        <span class="score-bar-value" id="val-event"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-tabs">
+                <button class="modal-tab active" data-tab="fundamentals" id="tab-fundamentals">📊 Fundamentals</button>
+                <button class="modal-tab" data-tab="technicals" id="tab-technicals">📈 Technicals</button>
+                <button class="modal-tab" data-tab="events" id="tab-events">🗓️ Events</button>
+                <button class="modal-tab" data-tab="changes" id="tab-changes">💹 Performance</button>
+            </div>
+
+            <div class="modal-tab-content" id="modal-tab-content"></div>
+        </div>
+    </div>
+
+    <!-- ─── Footer ───────────────────────────────────────────── -->
+    <footer class="footer">
+        <p>StockPulse — Data via Yahoo Finance. Not financial advice. <span class="footer-sep">•</span> Scores updated daily via automated scan.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
