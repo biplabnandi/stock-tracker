@@ -1,12 +1,12 @@
 """
 Technical Analyzer — Evaluates stocks on price action and technical indicators.
 
-Uses pandas_ta for indicator calculations. Scores each 0-100 and returns composite.
+Uses pandas_ta_classic for indicator calculations. Scores each 0-100 and returns composite.
 """
 
 import logging
 import pandas as pd
-import pandas_ta as ta
+import pandas_ta_classic as ta
 from config import (
     RSI_PERIOD,
     RSI_SWEET_SPOT,
@@ -215,7 +215,7 @@ def analyze_technicals(stock_data: dict) -> dict:
             "metric_scores": {},
         }
 
-    # ── Calculate indicators using pandas_ta ───────────────────────
+    # ── Calculate indicators using pandas_ta_classic ──────────────
     close = history["Close"]
     current_price = float(close.iloc[-1])
 
