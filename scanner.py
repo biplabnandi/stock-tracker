@@ -139,7 +139,7 @@ def run_scan(subset: list[dict] | None = None):
 
     logger.info("=" * 60)
     logger.info("STOCK GROWTH TRACKER — Scan Starting")
-    logger.info(f"Universe: {counts['total']} stocks ({counts['midcap']} midcap, {counts['smallcap']} smallcap)")
+    logger.info(f"Universe: {counts['total']} stocks ({counts['midcap']} midcap, {counts['smallcap']} smallcap, {counts.get('microcap', 0)} microcap)")
     logger.info(f"Scanning: {len(stocks)} stocks")
     logger.info("=" * 60)
 

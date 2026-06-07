@@ -345,6 +345,13 @@ function renderTabContent(tab, stock) {
       ${detailItem('Debt/Equity', f.debt_to_equity, v => v < 0.5 ? 'good' : v < 1 ? 'neutral' : 'bad')}
       ${detailItem('Promoter Hold', f.promoter_holding, v => v > 50 ? 'good' : v > 30 ? 'neutral' : 'bad', '%')}
       ${detailItem('Current Ratio', f.current_ratio, v => v > 1.5 ? 'good' : v > 1 ? 'neutral' : 'bad')}
+      ${detailItem('EPS', f.eps, v => v > 20 ? 'good' : v > 5 ? 'neutral' : 'bad', '')}
+      ${detailItem('PEG Ratio', f.peg_ratio, v => v <= 1 ? 'good' : v <= 2 ? 'neutral' : 'bad')}
+      ${detailItem('P/S Ratio', f.ps_ratio, v => v < 3 ? 'good' : v < 10 ? 'neutral' : 'bad')}
+      ${detailItem('Oper. Margin', f.operating_margin, v => v > 15 ? 'good' : v > 5 ? 'neutral' : 'bad', '%')}
+      ${detailItem('ROA', f.roa, v => v > 8 ? 'good' : v > 3 ? 'neutral' : 'bad', '%')}
+      ${detailItem('FCF Yield', f.fcf_yield, v => v > 4 ? 'good' : v > 0 ? 'neutral' : 'bad', '%')}
+      ${detailItem('Interest Cov.', f.interest_coverage, v => v > 3 ? 'good' : v > 1.5 ? 'neutral' : 'bad', 'x')}
     </div>`;
   } else if (tab === 'technicals') {
     const t = stock.technicals || {};

@@ -22,6 +22,11 @@ IDEAL_PROFIT_GROWTH = 12   # QoQ profit growth target (%)
 IDEAL_DEBT_EQUITY_MAX = 1.0  # D/E below this is healthy
 IDEAL_CURRENT_RATIO_MIN = 1.2  # Current ratio above this is healthy
 IDEAL_PROMOTER_HOLDING = 50  # Promoter holding above this is good (%)
+IDEAL_PEG_MAX = 2.0          # PEG above this is overpriced for growth
+IDEAL_PS_MAX = 10             # P/S above this is expensive
+IDEAL_OPERATING_MARGIN = 15   # Operating margin above this is good (%)
+IDEAL_ROA_MIN = 8             # ROA above this is good (%)
+IDEAL_INTEREST_COVERAGE = 3   # Interest coverage above this is safe
 
 # ─── Technical Parameters ──────────────────────────────────────────
 RSI_PERIOD = 14
