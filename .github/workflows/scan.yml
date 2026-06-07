@@ -27,10 +27,10 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -v -r requirements.txt
 
       - name: Run scanner
-        run: python scanner.py
+        run: python -u scanner.py
 
       - name: Commit results
         run: |
