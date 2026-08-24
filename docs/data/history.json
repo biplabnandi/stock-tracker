@@ -1,2610 +1,5 @@
 [
   {
-    "date": "2026-07-13T05:14:50.683582",
-    "scores": [
-      {
-        "ticker": "EIEL",
-        "composite": 75.0
-      },
-      {
-        "ticker": "MSTCLTD",
-        "composite": 72.8
-      },
-      {
-        "ticker": "WELENT",
-        "composite": 72.5
-      },
-      {
-        "ticker": "RITES",
-        "composite": 72.2
-      },
-      {
-        "ticker": "SPARC",
-        "composite": 71.9
-      },
-      {
-        "ticker": "THANGAMAYL",
-        "composite": 71.4
-      },
-      {
-        "ticker": "CHENNPETRO",
-        "composite": 70.5
-      },
-      {
-        "ticker": "NATCOPHARM",
-        "composite": 70.2
-      },
-      {
-        "ticker": "SUMICHEM",
-        "composite": 70.2
-      },
-      {
-        "ticker": "SUDEEPPHRM",
-        "composite": 70.2
-      },
-      {
-        "ticker": "BLUEJET",
-        "composite": 69.8
-      },
-      {
-        "ticker": "EPL",
-        "composite": 69.8
-      },
-      {
-        "ticker": "LLOYDSME",
-        "composite": 69.3
-      },
-      {
-        "ticker": "OBEROIRLTY",
-        "composite": 69.1
-      },
-      {
-        "ticker": "JAMNAAUTO",
-        "composite": 69.1
-      },
-      {
-        "ticker": "AIAENG",
-        "composite": 69.0
-      },
-      {
-        "ticker": "KIRLPNU",
-        "composite": 68.9
-      },
-      {
-        "ticker": "LUPIN",
-        "composite": 68.7
-      },
-      {
-        "ticker": "PREMIERENE",
-        "composite": 68.7
-      },
-      {
-        "ticker": "CERA",
-        "composite": 68.7
-      },
-      {
-        "ticker": "MARKSANS",
-        "composite": 68.7
-      },
-      {
-        "ticker": "AADHARHFC",
-        "composite": 68.6
-      },
-      {
-        "ticker": "EMMVEE",
-        "composite": 68.5
-      },
-      {
-        "ticker": "REFEX",
-        "composite": 68.5
-      },
-      {
-        "ticker": "SHARDACROP",
-        "composite": 68.5
-      },
-      {
-        "ticker": "WABAG",
-        "composite": 68.5
-      },
-      {
-        "ticker": "CEMPRO",
-        "composite": 68.4
-      },
-      {
-        "ticker": "NATIONALUM",
-        "composite": 68.3
-      },
-      {
-        "ticker": "OFSS",
-        "composite": 68.3
-      },
-      {
-        "ticker": "AEGISLOG",
-        "composite": 68.3
-      },
-      {
-        "ticker": "ZYDUSWELL",
-        "composite": 68.3
-      },
-      {
-        "ticker": "PNCINFRA",
-        "composite": 68.3
-      },
-      {
-        "ticker": "HINDCOPPER",
-        "composite": 68.2
-      },
-      {
-        "ticker": "PARAS",
-        "composite": 68.2
-      },
-      {
-        "ticker": "GLAND",
-        "composite": 68.1
-      },
-      {
-        "ticker": "ASTRAMICRO",
-        "composite": 67.9
-      },
-      {
-        "ticker": "GMDCLTD",
-        "composite": 67.8
-      },
-      {
-        "ticker": "IKS",
-        "composite": 67.8
-      },
-      {
-        "ticker": "NIVABUPA",
-        "composite": 67.7
-      },
-      {
-        "ticker": "BALAMINES",
-        "composite": 67.7
-      },
-      {
-        "ticker": "DATAMATICS",
-        "composite": 67.7
-      },
-      {
-        "ticker": "GRWRHITECH",
-        "composite": 67.5
-      },
-      {
-        "ticker": "BORORENEW",
-        "composite": 67.4
-      },
-      {
-        "ticker": "GRANULES",
-        "composite": 67.3
-      },
-      {
-        "ticker": "TENNIND",
-        "composite": 67.3
-      },
-      {
-        "ticker": "JKPAPER",
-        "composite": 67.3
-      },
-      {
-        "ticker": "MAPMYINDIA",
-        "composite": 67.2
-      },
-      {
-        "ticker": "LALPATHLAB",
-        "composite": 67.2
-      },
-      {
-        "ticker": "SPLPETRO",
-        "composite": 67.1
-      },
-      {
-        "ticker": "ALIVUS",
-        "composite": 67.0
-      },
-      {
-        "ticker": "AARTIDRUGS",
-        "composite": 66.9
-      },
-      {
-        "ticker": "KPIL",
-        "composite": 66.8
-      },
-      {
-        "ticker": "VIKRAMSOLR",
-        "composite": 66.8
-      },
-      {
-        "ticker": "UTLSOLAR",
-        "composite": 66.7
-      },
-      {
-        "ticker": "JAYNECOIND",
-        "composite": 66.6
-      },
-      {
-        "ticker": "LLOYDSENT",
-        "composite": 66.6
-      },
-      {
-        "ticker": "ENDURANCE",
-        "composite": 66.4
-      },
-      {
-        "ticker": "LOTUSDEV",
-        "composite": 66.4
-      },
-      {
-        "ticker": "LGEINDIA",
-        "composite": 66.2
-      },
-      {
-        "ticker": "PGIL",
-        "composite": 66.2
-      },
-      {
-        "ticker": "LICI",
-        "composite": 66.0
-      },
-      {
-        "ticker": "CREDITACC",
-        "composite": 66.0
-      },
-      {
-        "ticker": "INDIGOPNTS",
-        "composite": 66.0
-      },
-      {
-        "ticker": "THYROCARE",
-        "composite": 66.0
-      },
-      {
-        "ticker": "RRKABEL",
-        "composite": 65.9
-      },
-      {
-        "ticker": "CRIZAC",
-        "composite": 65.9
-      },
-      {
-        "ticker": "POWERMECH",
-        "composite": 65.9
-      },
-      {
-        "ticker": "SUPRIYA",
-        "composite": 65.9
-      },
-      {
-        "ticker": "ANTHEM",
-        "composite": 65.8
-      },
-      {
-        "ticker": "NH",
-        "composite": 65.8
-      },
-      {
-        "ticker": "SAREGAMA",
-        "composite": 65.7
-      },
-      {
-        "ticker": "SHYAMMETL",
-        "composite": 65.7
-      },
-      {
-        "ticker": "CUPID",
-        "composite": 65.7
-      },
-      {
-        "ticker": "CPPLUS",
-        "composite": 65.6
-      },
-      {
-        "ticker": "STYL",
-        "composite": 65.6
-      },
-      {
-        "ticker": "ACUTAAS",
-        "composite": 65.4
-      },
-      {
-        "ticker": "PRIVISCL",
-        "composite": 65.4
-      },
-      {
-        "ticker": "OIL",
-        "composite": 65.3
-      },
-      {
-        "ticker": "CANFINHOME",
-        "composite": 65.3
-      },
-      {
-        "ticker": "VARROC",
-        "composite": 65.3
-      },
-      {
-        "ticker": "CAPLIPOINT",
-        "composite": 65.2
-      },
-      {
-        "ticker": "AARTIPHARM",
-        "composite": 65.2
-      },
-      {
-        "ticker": "BANCOINDIA",
-        "composite": 65.2
-      },
-      {
-        "ticker": "DIACABS",
-        "composite": 65.2
-      },
-      {
-        "ticker": "SHILPAMED",
-        "composite": 65.1
-      },
-      {
-        "ticker": "TVSSCS",
-        "composite": 65.1
-      },
-      {
-        "ticker": "TIPSMUSIC",
-        "composite": 65.0
-      },
-      {
-        "ticker": "3MINDIA",
-        "composite": 64.9
-      },
-      {
-        "ticker": "BSOFT",
-        "composite": 64.9
-      },
-      {
-        "ticker": "USHAMART",
-        "composite": 64.9
-      },
-      {
-        "ticker": "WEBELSOLAR",
-        "composite": 64.9
-      },
-      {
-        "ticker": "APTUS",
-        "composite": 64.8
-      },
-      {
-        "ticker": "CEATLTD",
-        "composite": 64.8
-      },
-      {
-        "ticker": "DATAPATTNS",
-        "composite": 64.8
-      },
-      {
-        "ticker": "SIGNATURE",
-        "composite": 64.8
-      },
-      {
-        "ticker": "NEULANDLAB",
-        "composite": 64.7
-      },
-      {
-        "ticker": "GOKULAGRO",
-        "composite": 64.7
-      },
-      {
-        "ticker": "GODREJIND",
-        "composite": 64.5
-      },
-      {
-        "ticker": "BALRAMCHIN",
-        "composite": 64.5
-      },
-      {
-        "ticker": "JUBLINGREA",
-        "composite": 64.5
-      },
-      {
-        "ticker": "HEXT",
-        "composite": 64.4
-      },
-      {
-        "ticker": "SANDUMA",
-        "composite": 64.4
-      },
-      {
-        "ticker": "PNBHOUSING",
-        "composite": 64.3
-      },
-      {
-        "ticker": "TANLA",
-        "composite": 64.3
-      },
-      {
-        "ticker": "HONAUT",
-        "composite": 64.2
-      },
-      {
-        "ticker": "SUZLON",
-        "composite": 64.2
-      },
-      {
-        "ticker": "SAMHI",
-        "composite": 64.2
-      },
-      {
-        "ticker": "TRIVENI",
-        "composite": 64.2
-      },
-      {
-        "ticker": "GRAVITA",
-        "composite": 64.1
-      },
-      {
-        "ticker": "THELEELA",
-        "composite": 64.0
-      },
-      {
-        "ticker": "TIMKEN",
-        "composite": 64.0
-      },
-      {
-        "ticker": "SUBROS",
-        "composite": 64.0
-      },
-      {
-        "ticker": "ITCHOTELS",
-        "composite": 63.9
-      },
-      {
-        "ticker": "IONEXCHANG",
-        "composite": 63.9
-      },
-      {
-        "ticker": "SHRIPISTON",
-        "composite": 63.8
-      },
-      {
-        "ticker": "MPHASIS",
-        "composite": 63.7
-      },
-      {
-        "ticker": "PHOENIXLTD",
-        "composite": 63.7
-      },
-      {
-        "ticker": "CONCORDBIO",
-        "composite": 63.7
-      },
-      {
-        "ticker": "SURYAROSNI",
-        "composite": 63.7
-      },
-      {
-        "ticker": "FINCABLES",
-        "composite": 63.6
-      },
-      {
-        "ticker": "GPIL",
-        "composite": 63.6
-      },
-      {
-        "ticker": "NEWGEN",
-        "composite": 63.6
-      },
-      {
-        "ticker": "IFBIND",
-        "composite": 63.6
-      },
-      {
-        "ticker": "KTKBANK",
-        "composite": 63.6
-      },
-      {
-        "ticker": "TSFINV",
-        "composite": 63.6
-      },
-      {
-        "ticker": "JYOTICNC",
-        "composite": 63.5
-      },
-      {
-        "ticker": "KPRMILL",
-        "composite": 63.4
-      },
-      {
-        "ticker": "MRF",
-        "composite": 63.4
-      },
-      {
-        "ticker": "SRF",
-        "composite": 63.4
-      },
-      {
-        "ticker": "AHLUCONT",
-        "composite": 63.4
-      },
-      {
-        "ticker": "TEXRAIL",
-        "composite": 63.4
-      },
-      {
-        "ticker": "ZAGGLE",
-        "composite": 63.4
-      },
-      {
-        "ticker": "BLUESTARCO",
-        "composite": 63.3
-      },
-      {
-        "ticker": "MEDANTA",
-        "composite": 63.3
-      },
-      {
-        "ticker": "NMDC",
-        "composite": 63.3
-      },
-      {
-        "ticker": "MANAPPURAM",
-        "composite": 63.3
-      },
-      {
-        "ticker": "TMB",
-        "composite": 63.3
-      },
-      {
-        "ticker": "INTELLECT",
-        "composite": 63.2
-      },
-      {
-        "ticker": "TATATECH",
-        "composite": 63.2
-      },
-      {
-        "ticker": "AJANTPHARM",
-        "composite": 63.1
-      },
-      {
-        "ticker": "SUPREMEIND",
-        "composite": 63.1
-      },
-      {
-        "ticker": "KAJARIACER",
-        "composite": 63.1
-      },
-      {
-        "ticker": "MSUMI",
-        "composite": 63.1
-      },
-      {
-        "ticker": "GNFC",
-        "composite": 63.1
-      },
-      {
-        "ticker": "GPPL",
-        "composite": 63.1
-      },
-      {
-        "ticker": "ORIENTCEM",
-        "composite": 63.1
-      },
-      {
-        "ticker": "MCX",
-        "composite": 63.0
-      },
-      {
-        "ticker": "BEML",
-        "composite": 63.0
-      },
-      {
-        "ticker": "ASHAPURMIN",
-        "composite": 63.0
-      },
-      {
-        "ticker": "PRUDENT",
-        "composite": 63.0
-      },
-      {
-        "ticker": "RELAXO",
-        "composite": 63.0
-      },
-      {
-        "ticker": "GROWW",
-        "composite": 62.9
-      },
-      {
-        "ticker": "GRSE",
-        "composite": 62.9
-      },
-      {
-        "ticker": "GESHIP",
-        "composite": 62.9
-      },
-      {
-        "ticker": "DALBHARAT",
-        "composite": 62.8
-      },
-      {
-        "ticker": "EXIDEIND",
-        "composite": 62.8
-      },
-      {
-        "ticker": "CELLO",
-        "composite": 62.8
-      },
-      {
-        "ticker": "KPIGREEN",
-        "composite": 62.8
-      },
-      {
-        "ticker": "KARURVYSYA",
-        "composite": 62.7
-      },
-      {
-        "ticker": "NAVINFLUOR",
-        "composite": 62.7
-      },
-      {
-        "ticker": "PPLPHARMA",
-        "composite": 62.7
-      },
-      {
-        "ticker": "PARKHOSPS",
-        "composite": 62.7
-      },
-      {
-        "ticker": "NAM-INDIA",
-        "composite": 62.6
-      },
-      {
-        "ticker": "EIHOTEL",
-        "composite": 62.6
-      },
-      {
-        "ticker": "GABRIEL",
-        "composite": 62.6
-      },
-      {
-        "ticker": "NUVOCO",
-        "composite": 62.6
-      },
-      {
-        "ticker": "SONATSOFTW",
-        "composite": 62.6
-      },
-      {
-        "ticker": "RCF",
-        "composite": 62.6
-      },
-      {
-        "ticker": "BSE",
-        "composite": 62.5
-      },
-      {
-        "ticker": "NIACL",
-        "composite": 62.5
-      },
-      {
-        "ticker": "CHALET",
-        "composite": 62.5
-      },
-      {
-        "ticker": "AVALON",
-        "composite": 62.5
-      },
-      {
-        "ticker": "SANSERA",
-        "composite": 62.5
-      },
-      {
-        "ticker": "UJJIVANSFB",
-        "composite": 62.5
-      },
-      {
-        "ticker": "WEWORK",
-        "composite": 62.5
-      },
-      {
-        "ticker": "HUDCO",
-        "composite": 62.4
-      },
-      {
-        "ticker": "AMBER",
-        "composite": 62.4
-      },
-      {
-        "ticker": "APLLTD",
-        "composite": 62.4
-      },
-      {
-        "ticker": "ABCAPITAL",
-        "composite": 62.3
-      },
-      {
-        "ticker": "ARE&M",
-        "composite": 62.3
-      },
-      {
-        "ticker": "RELIGARE",
-        "composite": 62.3
-      },
-      {
-        "ticker": "DEEPAKNTR",
-        "composite": 62.2
-      },
-      {
-        "ticker": "ANANDRATHI",
-        "composite": 62.1
-      },
-      {
-        "ticker": "FSL",
-        "composite": 62.0
-      },
-      {
-        "ticker": "NUVAMA",
-        "composite": 62.0
-      },
-      {
-        "ticker": "PFIZER",
-        "composite": 62.0
-      },
-      {
-        "ticker": "ROUTE",
-        "composite": 62.0
-      },
-      {
-        "ticker": "SKYGOLD",
-        "composite": 62.0
-      },
-      {
-        "ticker": "POWERINDIA",
-        "composite": 61.9
-      },
-      {
-        "ticker": "NHPC",
-        "composite": 61.9
-      },
-      {
-        "ticker": "NBCC",
-        "composite": 61.9
-      },
-      {
-        "ticker": "WELSPUNLIV",
-        "composite": 61.9
-      },
-      {
-        "ticker": "TIMETECHNO",
-        "composite": 61.9
-      },
-      {
-        "ticker": "HAVELLS",
-        "composite": 61.8
-      },
-      {
-        "ticker": "HEROMOTOCO",
-        "composite": 61.8
-      },
-      {
-        "ticker": "JSWINFRA",
-        "composite": 61.8
-      },
-      {
-        "ticker": "HFCL",
-        "composite": 61.8
-      },
-      {
-        "ticker": "RATEGAIN",
-        "composite": 61.8
-      },
-      {
-        "ticker": "VIYASH",
-        "composite": 61.8
-      },
-      {
-        "ticker": "GLAXO",
-        "composite": 61.7
-      },
-      {
-        "ticker": "GODREJPROP",
-        "composite": 61.7
-      },
-      {
-        "ticker": "MARICO",
-        "composite": 61.7
-      },
-      {
-        "ticker": "BIRLACORPN",
-        "composite": 61.7
-      },
-      {
-        "ticker": "FINPIPE",
-        "composite": 61.7
-      },
-      {
-        "ticker": "METROPOLIS",
-        "composite": 61.7
-      },
-      {
-        "ticker": "OPTIEMUS",
-        "composite": 61.7
-      },
-      {
-        "ticker": "SKIPPER",
-        "composite": 61.7
-      },
-      {
-        "ticker": "HONASA",
-        "composite": 61.6
-      },
-      {
-        "ticker": "MINDACORP",
-        "composite": 61.6
-      },
-      {
-        "ticker": "POONAWALLA",
-        "composite": 61.6
-      },
-      {
-        "ticker": "AZAD",
-        "composite": 61.6
-      },
-      {
-        "ticker": "INOXINDIA",
-        "composite": 61.6
-      },
-      {
-        "ticker": "TI",
-        "composite": 61.6
-      },
-      {
-        "ticker": "ATUL",
-        "composite": 61.5
-      },
-      {
-        "ticker": "PTCIL",
-        "composite": 61.5
-      },
-      {
-        "ticker": "STYRENIX",
-        "composite": 61.5
-      },
-      {
-        "ticker": "VAIBHAVGBL",
-        "composite": 61.5
-      },
-      {
-        "ticker": "ABBOTINDIA",
-        "composite": 61.4
-      },
-      {
-        "ticker": "APOLLOTYRE",
-        "composite": 61.4
-      },
-      {
-        "ticker": "THERMAX",
-        "composite": 61.4
-      },
-      {
-        "ticker": "ARVIND",
-        "composite": 61.4
-      },
-      {
-        "ticker": "SHAKTIPUMP",
-        "composite": 61.4
-      },
-      {
-        "ticker": "AUROPHARMA",
-        "composite": 61.3
-      },
-      {
-        "ticker": "FIVESTAR",
-        "composite": 61.3
-      },
-      {
-        "ticker": "IIFL",
-        "composite": 61.3
-      },
-      {
-        "ticker": "VIJAYA",
-        "composite": 61.3
-      },
-      {
-        "ticker": "HAPPSTMNDS",
-        "composite": 61.3
-      },
-      {
-        "ticker": "JSFB",
-        "composite": 61.3
-      },
-      {
-        "ticker": "AUBANK",
-        "composite": 61.2
-      },
-      {
-        "ticker": "NLCINDIA",
-        "composite": 61.2
-      },
-      {
-        "ticker": "CGCL",
-        "composite": 61.2
-      },
-      {
-        "ticker": "DELHIVERY",
-        "composite": 61.2
-      },
-      {
-        "ticker": "ELGIEQUIP",
-        "composite": 61.2
-      },
-      {
-        "ticker": "TRIDENT",
-        "composite": 61.2
-      },
-      {
-        "ticker": "FEDFINA",
-        "composite": 61.2
-      },
-      {
-        "ticker": "INDUSTOWER",
-        "composite": 61.1
-      },
-      {
-        "ticker": "PERSISTENT",
-        "composite": 61.1
-      },
-      {
-        "ticker": "VOLTAS",
-        "composite": 61.1
-      },
-      {
-        "ticker": "RAINBOW",
-        "composite": 61.1
-      },
-      {
-        "ticker": "ZENSARTECH",
-        "composite": 61.1
-      },
-      {
-        "ticker": "PURVA",
-        "composite": 61.1
-      },
-      {
-        "ticker": "GICRE",
-        "composite": 61.0
-      },
-      {
-        "ticker": "NAUKRI",
-        "composite": 61.0
-      },
-      {
-        "ticker": "NEOGEN",
-        "composite": 61.0
-      },
-      {
-        "ticker": "QUESS",
-        "composite": 61.0
-      },
-      {
-        "ticker": "ANUP",
-        "composite": 61.0
-      },
-      {
-        "ticker": "ACE",
-        "composite": 60.9
-      },
-      {
-        "ticker": "SONACOMS",
-        "composite": 60.9
-      },
-      {
-        "ticker": "BBTC",
-        "composite": 60.8
-      },
-      {
-        "ticker": "AKUMS",
-        "composite": 60.8
-      },
-      {
-        "ticker": "RAIN",
-        "composite": 60.8
-      },
-      {
-        "ticker": "WAAREERTL",
-        "composite": 60.8
-      },
-      {
-        "ticker": "LAURUSLABS",
-        "composite": 60.7
-      },
-      {
-        "ticker": "ANURAS",
-        "composite": 60.7
-      },
-      {
-        "ticker": "BLACKBUCK",
-        "composite": 60.7
-      },
-      {
-        "ticker": "CRAMC",
-        "composite": 60.7
-      },
-      {
-        "ticker": "KIRLOSBROS",
-        "composite": 60.7
-      },
-      {
-        "ticker": "ENTERO",
-        "composite": 60.6
-      },
-      {
-        "ticker": "SKFINDUS",
-        "composite": 60.6
-      },
-      {
-        "ticker": "TDPOWERSYS",
-        "composite": 60.6
-      },
-      {
-        "ticker": "POLYCAB",
-        "composite": 60.5
-      },
-      {
-        "ticker": "UPL",
-        "composite": 60.5
-      },
-      {
-        "ticker": "HOMEFIRST",
-        "composite": 60.5
-      },
-      {
-        "ticker": "MMTC",
-        "composite": 60.5
-      },
-      {
-        "ticker": "TARIL",
-        "composite": 60.5
-      },
-      {
-        "ticker": "ATLANTAELE",
-        "composite": 60.5
-      },
-      {
-        "ticker": "JLHL",
-        "composite": 60.5
-      },
-      {
-        "ticker": "APARINDS",
-        "composite": 60.4
-      },
-      {
-        "ticker": "COFORGE",
-        "composite": 60.4
-      },
-      {
-        "ticker": "COLPAL",
-        "composite": 60.4
-      },
-      {
-        "ticker": "SAIL",
-        "composite": 60.4
-      },
-      {
-        "ticker": "SHAREINDIA",
-        "composite": 60.4
-      },
-      {
-        "ticker": "STARCEMENT",
-        "composite": 60.4
-      },
-      {
-        "ticker": "LTF",
-        "composite": 60.3
-      },
-      {
-        "ticker": "BAYERCROP",
-        "composite": 60.3
-      },
-      {
-        "ticker": "J&KBANK",
-        "composite": 60.3
-      },
-      {
-        "ticker": "APOLLO",
-        "composite": 60.3
-      },
-      {
-        "ticker": "KAYNES",
-        "composite": 60.1
-      },
-      {
-        "ticker": "APLAPOLLO",
-        "composite": 60.0
-      },
-      {
-        "ticker": "ASAHIINDIA",
-        "composite": 60.0
-      },
-      {
-        "ticker": "AURIONPRO",
-        "composite": 60.0
-      },
-      {
-        "ticker": "UNOMINDA",
-        "composite": 59.9
-      },
-      {
-        "ticker": "IGIL",
-        "composite": 59.9
-      },
-      {
-        "ticker": "FIEMIND",
-        "composite": 59.9
-      },
-      {
-        "ticker": "GOKEX",
-        "composite": 59.9
-      },
-      {
-        "ticker": "VGUARD",
-        "composite": 59.9
-      },
-      {
-        "ticker": "INDIANB",
-        "composite": 59.8
-      },
-      {
-        "ticker": "MANKIND",
-        "composite": 59.8
-      },
-      {
-        "ticker": "PRICOLLTD",
-        "composite": 59.8
-      },
-      {
-        "ticker": "SFL",
-        "composite": 59.8
-      },
-      {
-        "ticker": "EMCURE",
-        "composite": 59.6
-      },
-      {
-        "ticker": "NYKAA",
-        "composite": 59.5
-      },
-      {
-        "ticker": "NTPCGREEN",
-        "composite": 59.5
-      },
-      {
-        "ticker": "KIRLOSENG",
-        "composite": 59.5
-      },
-      {
-        "ticker": "BHEL",
-        "composite": 59.4
-      },
-      {
-        "ticker": "FLUOROCHEM",
-        "composite": 59.4
-      },
-      {
-        "ticker": "KEI",
-        "composite": 59.4
-      },
-      {
-        "ticker": "AEGISVOPAK",
-        "composite": 59.4
-      },
-      {
-        "ticker": "ASTERDM",
-        "composite": 59.4
-      },
-      {
-        "ticker": "LATENTVIEW",
-        "composite": 59.4
-      },
-      {
-        "ticker": "WHIRLPOOL",
-        "composite": 59.4
-      },
-      {
-        "ticker": "ECLERX",
-        "composite": 59.4
-      },
-      {
-        "ticker": "RATNAMANI",
-        "composite": 59.4
-      },
-      {
-        "ticker": "HDBFS",
-        "composite": 59.3
-      },
-      {
-        "ticker": "PETRONET",
-        "composite": 59.3
-      },
-      {
-        "ticker": "CUB",
-        "composite": 59.3
-      },
-      {
-        "ticker": "TRAVELFOOD",
-        "composite": 59.3
-      },
-      {
-        "ticker": "EQUITASBNK",
-        "composite": 59.3
-      },
-      {
-        "ticker": "KRBL",
-        "composite": 59.3
-      },
-      {
-        "ticker": "CIEINDIA",
-        "composite": 59.2
-      },
-      {
-        "ticker": "CAMS",
-        "composite": 59.2
-      },
-      {
-        "ticker": "CCAVENUE",
-        "composite": 59.2
-      },
-      {
-        "ticker": "HCC",
-        "composite": 59.2
-      },
-      {
-        "ticker": "AFFLE",
-        "composite": 59.1
-      },
-      {
-        "ticker": "ANANTRAJ",
-        "composite": 59.1
-      },
-      {
-        "ticker": "BANDHANBNK",
-        "composite": 59.1
-      },
-      {
-        "ticker": "SBFC",
-        "composite": 59.1
-      },
-      {
-        "ticker": "TRITURBINE",
-        "composite": 59.1
-      },
-      {
-        "ticker": "JKCEMENT",
-        "composite": 59.0
-      },
-      {
-        "ticker": "GHCL",
-        "composite": 59.0
-      },
-      {
-        "ticker": "MAHABANK",
-        "composite": 58.9
-      },
-      {
-        "ticker": "BHARTIHEXA",
-        "composite": 58.9
-      },
-      {
-        "ticker": "HINDPETRO",
-        "composite": 58.8
-      },
-      {
-        "ticker": "INDUSINDBK",
-        "composite": 58.7
-      },
-      {
-        "ticker": "M&MFIN",
-        "composite": 58.6
-      },
-      {
-        "ticker": "ACMESOLAR",
-        "composite": 58.6
-      },
-      {
-        "ticker": "SOBHA",
-        "composite": 58.6
-      },
-      {
-        "ticker": "CSBBANK",
-        "composite": 58.6
-      },
-      {
-        "ticker": "NAZARA",
-        "composite": 58.6
-      },
-      {
-        "ticker": "PFOCUS",
-        "composite": 58.6
-      },
-      {
-        "ticker": "WAKEFIT",
-        "composite": 58.6
-      },
-      {
-        "ticker": "ASHOKLEY",
-        "composite": 58.5
-      },
-      {
-        "ticker": "FEDERALBNK",
-        "composite": 58.5
-      },
-      {
-        "ticker": "CRAFTSMAN",
-        "composite": 58.5
-      },
-      {
-        "ticker": "DOMS",
-        "composite": 58.5
-      },
-      {
-        "ticker": "MTARTECH",
-        "composite": 58.4
-      },
-      {
-        "ticker": "MASTEK",
-        "composite": 58.4
-      },
-      {
-        "ticker": "PGEL",
-        "composite": 58.3
-      },
-      {
-        "ticker": "CORONA",
-        "composite": 58.3
-      },
-      {
-        "ticker": "PICCADIL",
-        "composite": 58.3
-      },
-      {
-        "ticker": "OSWALPUMPS",
-        "composite": 58.2
-      },
-      {
-        "ticker": "JSL",
-        "composite": 58.1
-      },
-      {
-        "ticker": "INDIAGLYCO",
-        "composite": 58.1
-      },
-      {
-        "ticker": "360ONE",
-        "composite": 57.9
-      },
-      {
-        "ticker": "CLEAN",
-        "composite": 57.9
-      },
-      {
-        "ticker": "IFCI",
-        "composite": 57.9
-      },
-      {
-        "ticker": "SAILIFE",
-        "composite": 57.9
-      },
-      {
-        "ticker": "LLOYDSENGG",
-        "composite": 57.9
-      },
-      {
-        "ticker": "INDIACEM",
-        "composite": 57.8
-      },
-      {
-        "ticker": "IMFA",
-        "composite": 57.8
-      },
-      {
-        "ticker": "JUSTDIAL",
-        "composite": 57.8
-      },
-      {
-        "ticker": "LUMAXTECH",
-        "composite": 57.8
-      },
-      {
-        "ticker": "LENSKART",
-        "composite": 57.7
-      },
-      {
-        "ticker": "NSLNISP",
-        "composite": 57.7
-      },
-      {
-        "ticker": "ASKAUTOLTD",
-        "composite": 57.7
-      },
-      {
-        "ticker": "ALKYLAMINE",
-        "composite": 57.7
-      },
-      {
-        "ticker": "AVANTIFEED",
-        "composite": 57.7
-      },
-      {
-        "ticker": "BERGEPAINT",
-        "composite": 57.6
-      },
-      {
-        "ticker": "GODFRYPHLP",
-        "composite": 57.6
-      },
-      {
-        "ticker": "SUNDARMFIN",
-        "composite": 57.6
-      },
-      {
-        "ticker": "JBMA",
-        "composite": 57.6
-      },
-      {
-        "ticker": "ONESOURCE",
-        "composite": 57.6
-      },
-      {
-        "ticker": "KRN",
-        "composite": 57.6
-      },
-      {
-        "ticker": "TATAELXSI",
-        "composite": 57.4
-      },
-      {
-        "ticker": "SUDARSCHEM",
-        "composite": 57.4
-      },
-      {
-        "ticker": "GMRAIRPORT",
-        "composite": 57.3
-      },
-      {
-        "ticker": "RADICO",
-        "composite": 57.3
-      },
-      {
-        "ticker": "HSCL",
-        "composite": 57.3
-      },
-      {
-        "ticker": "IDBI",
-        "composite": 57.3
-      },
-      {
-        "ticker": "SAGILITY",
-        "composite": 57.3
-      },
-      {
-        "ticker": "ERIS",
-        "composite": 57.2
-      },
-      {
-        "ticker": "BAJAJHFL",
-        "composite": 57.1
-      },
-      {
-        "ticker": "LTTS",
-        "composite": 57.1
-      },
-      {
-        "ticker": "DYNAMATECH",
-        "composite": 57.1
-      },
-      {
-        "ticker": "GMRP&UI",
-        "composite": 57.1
-      },
-      {
-        "ticker": "GREAVESCOT",
-        "composite": 57.1
-      },
-      {
-        "ticker": "INDIASHLTR",
-        "composite": 57.1
-      },
-      {
-        "ticker": "NESCO",
-        "composite": 57.1
-      },
-      {
-        "ticker": "ASTRAL",
-        "composite": 57.0
-      },
-      {
-        "ticker": "LICHSGFIN",
-        "composite": 57.0
-      },
-      {
-        "ticker": "ANGELONE",
-        "composite": 57.0
-      },
-      {
-        "ticker": "CHOLAHLDNG",
-        "composite": 57.0
-      },
-      {
-        "ticker": "INDIAMART",
-        "composite": 57.0
-      },
-      {
-        "ticker": "PCBL",
-        "composite": 57.0
-      },
-      {
-        "ticker": "BBOX",
-        "composite": 57.0
-      },
-      {
-        "ticker": "IPCALAB",
-        "composite": 56.9
-      },
-      {
-        "ticker": "JKTYRE",
-        "composite": 56.9
-      },
-      {
-        "ticker": "CENTURYPLY",
-        "composite": 56.9
-      },
-      {
-        "ticker": "EMIL",
-        "composite": 56.9
-      },
-      {
-        "ticker": "AWL",
-        "composite": 56.8
-      },
-      {
-        "ticker": "PRESTIGE",
-        "composite": 56.8
-      },
-      {
-        "ticker": "SMARTWORKS",
-        "composite": 56.8
-      },
-      {
-        "ticker": "BLS",
-        "composite": 56.7
-      },
-      {
-        "ticker": "ASHOKA",
-        "composite": 56.7
-      },
-      {
-        "ticker": "NCC",
-        "composite": 56.6
-      },
-      {
-        "ticker": "SARDAEN",
-        "composite": 56.6
-      },
-      {
-        "ticker": "MEDPLUS",
-        "composite": 56.6
-      },
-      {
-        "ticker": "PRAJIND",
-        "composite": 56.6
-      },
-      {
-        "ticker": "FORTIS",
-        "composite": 56.5
-      },
-      {
-        "ticker": "WAAREEENER",
-        "composite": 56.5
-      },
-      {
-        "ticker": "JUBLPHARMA",
-        "composite": 56.5
-      },
-      {
-        "ticker": "LEMONTREE",
-        "composite": 56.5
-      },
-      {
-        "ticker": "AGARWALEYE",
-        "composite": 56.5
-      },
-      {
-        "ticker": "JSWCEMENT",
-        "composite": 56.4
-      },
-      {
-        "ticker": "GILLETTE",
-        "composite": 56.3
-      },
-      {
-        "ticker": "GAEL",
-        "composite": 56.3
-      },
-      {
-        "ticker": "SWSOLAR",
-        "composite": 56.3
-      },
-      {
-        "ticker": "ABSLAMC",
-        "composite": 56.2
-      },
-      {
-        "ticker": "ICICIPRULI",
-        "composite": 56.1
-      },
-      {
-        "ticker": "IRCON",
-        "composite": 56.1
-      },
-      {
-        "ticker": "IXIGO",
-        "composite": 56.1
-      },
-      {
-        "ticker": "ALKEM",
-        "composite": 56.0
-      },
-      {
-        "ticker": "AARTIIND",
-        "composite": 56.0
-      },
-      {
-        "ticker": "CMSINFO",
-        "composite": 56.0
-      },
-      {
-        "ticker": "ESCORTS",
-        "composite": 55.8
-      },
-      {
-        "ticker": "CESC",
-        "composite": 55.8
-      },
-      {
-        "ticker": "GALLANTT",
-        "composite": 55.8
-      },
-      {
-        "ticker": "RAMCOCEM",
-        "composite": 55.8
-      },
-      {
-        "ticker": "RUBICON",
-        "composite": 55.8
-      },
-      {
-        "ticker": "CHOICEIN",
-        "composite": 55.7
-      },
-      {
-        "ticker": "IEX",
-        "composite": 55.7
-      },
-      {
-        "ticker": "VTL",
-        "composite": 55.7
-      },
-      {
-        "ticker": "DCBBANK",
-        "composite": 55.7
-      },
-      {
-        "ticker": "MANORAMA",
-        "composite": 55.7
-      },
-      {
-        "ticker": "PNGJL",
-        "composite": 55.7
-      },
-      {
-        "ticker": "SMLMAH",
-        "composite": 55.7
-      },
-      {
-        "ticker": "GVT&D",
-        "composite": 55.6
-      },
-      {
-        "ticker": "WELCORP",
-        "composite": 55.6
-      },
-      {
-        "ticker": "JUBLFOOD",
-        "composite": 55.5
-      },
-      {
-        "ticker": "AAVAS",
-        "composite": 55.5
-      },
-      {
-        "ticker": "MEESHO",
-        "composite": 55.5
-      },
-      {
-        "ticker": "PIRAMALFIN",
-        "composite": 55.5
-      },
-      {
-        "ticker": "YESBANK",
-        "composite": 55.4
-      },
-      {
-        "ticker": "OLECTRA",
-        "composite": 55.4
-      },
-      {
-        "ticker": "ELECTCAST",
-        "composite": 55.4
-      },
-      {
-        "ticker": "BANKINDIA",
-        "composite": 55.3
-      },
-      {
-        "ticker": "PVRINOX",
-        "composite": 55.3
-      },
-      {
-        "ticker": "ABREL",
-        "composite": 55.2
-      },
-      {
-        "ticker": "RKFORGE",
-        "composite": 55.1
-      },
-      {
-        "ticker": "UCOBANK",
-        "composite": 55.1
-      },
-      {
-        "ticker": "CAPILLARY",
-        "composite": 55.1
-      },
-      {
-        "ticker": "MAHSEAMLES",
-        "composite": 55.1
-      },
-      {
-        "ticker": "SAATVIKGL",
-        "composite": 55.1
-      },
-      {
-        "ticker": "SYRMA",
-        "composite": 55.0
-      },
-      {
-        "ticker": "TEGA",
-        "composite": 55.0
-      },
-      {
-        "ticker": "ACC",
-        "composite": 54.9
-      },
-      {
-        "ticker": "KPITTECH",
-        "composite": 54.9
-      },
-      {
-        "ticker": "BELRISE",
-        "composite": 54.9
-      },
-      {
-        "ticker": "CANHLIFE",
-        "composite": 54.9
-      },
-      {
-        "ticker": "IRB",
-        "composite": 54.9
-      },
-      {
-        "ticker": "ITI",
-        "composite": 54.8
-      },
-      {
-        "ticker": "ORKLAINDIA",
-        "composite": 54.8
-      },
-      {
-        "ticker": "PAGEIND",
-        "composite": 54.7
-      },
-      {
-        "ticker": "IOB",
-        "composite": 54.7
-      },
-      {
-        "ticker": "JKLAKSHMI",
-        "composite": 54.7
-      },
-      {
-        "ticker": "JAIBALAJI",
-        "composite": 54.7
-      },
-      {
-        "ticker": "GLENMARK",
-        "composite": 54.6
-      },
-      {
-        "ticker": "GODIGIT",
-        "composite": 54.6
-      },
-      {
-        "ticker": "SENCO",
-        "composite": 54.6
-      },
-      {
-        "ticker": "ATGL",
-        "composite": 54.5
-      },
-      {
-        "ticker": "JAINREC",
-        "composite": 54.5
-      },
-      {
-        "ticker": "KFINTECH",
-        "composite": 54.5
-      },
-      {
-        "ticker": "PARADEEP",
-        "composite": 54.5
-      },
-      {
-        "ticker": "DIXON",
-        "composite": 54.4
-      },
-      {
-        "ticker": "JINDALSAW",
-        "composite": 54.4
-      },
-      {
-        "ticker": "NAVA",
-        "composite": 54.4
-      },
-      {
-        "ticker": "WOCKPHARMA",
-        "composite": 54.4
-      },
-      {
-        "ticker": "PCJEWELLER",
-        "composite": 54.4
-      },
-      {
-        "ticker": "STLTECH",
-        "composite": 54.4
-      },
-      {
-        "ticker": "COCHINSHIP",
-        "composite": 54.3
-      },
-      {
-        "ticker": "CCL",
-        "composite": 54.3
-      },
-      {
-        "ticker": "CARTRADE",
-        "composite": 54.3
-      },
-      {
-        "ticker": "DEEPAKFERT",
-        "composite": 54.3
-      },
-      {
-        "ticker": "SYNGENE",
-        "composite": 54.3
-      },
-      {
-        "ticker": "INDGN",
-        "composite": 54.2
-      },
-      {
-        "ticker": "ELLEN",
-        "composite": 54.2
-      },
-      {
-        "ticker": "YATHARTH",
-        "composite": 54.2
-      },
-      {
-        "ticker": "BHARATFORG",
-        "composite": 54.1
-      },
-      {
-        "ticker": "SAFARI",
-        "composite": 54.1
-      },
-      {
-        "ticker": "SANOFICONR",
-        "composite": 54.1
-      },
-      {
-        "ticker": "SBICARD",
-        "composite": 54.0
-      },
-      {
-        "ticker": "HERITGFOOD",
-        "composite": 54.0
-      },
-      {
-        "ticker": "MOTILALOFS",
-        "composite": 53.9
-      },
-      {
-        "ticker": "ARVINDFASN",
-        "composite": 53.9
-      },
-      {
-        "ticker": "MOIL",
-        "composite": 53.9
-      },
-      {
-        "ticker": "STAR",
-        "composite": 53.9
-      },
-      {
-        "ticker": "AETHER",
-        "composite": 53.8
-      },
-      {
-        "ticker": "IIFLCAPS",
-        "composite": 53.7
-      },
-      {
-        "ticker": "DCMSHRIRAM",
-        "composite": 53.6
-      },
-      {
-        "ticker": "POLYMED",
-        "composite": 53.6
-      },
-      {
-        "ticker": "REDINGTON",
-        "composite": 53.6
-      },
-      {
-        "ticker": "BALKRISIND",
-        "composite": 53.5
-      },
-      {
-        "ticker": "HCG",
-        "composite": 53.5
-      },
-      {
-        "ticker": "PTC",
-        "composite": 53.5
-      },
-      {
-        "ticker": "EMAMILTD",
-        "composite": 53.4
-      },
-      {
-        "ticker": "RAILTEL",
-        "composite": 53.4
-      },
-      {
-        "ticker": "SOUTHBANK",
-        "composite": 53.4
-      },
-      {
-        "ticker": "GRAPHITE",
-        "composite": 53.3
-      },
-      {
-        "ticker": "AVL",
-        "composite": 53.3
-      },
-      {
-        "ticker": "CDSL",
-        "composite": 53.1
-      },
-      {
-        "ticker": "BRIGADE",
-        "composite": 53.0
-      },
-      {
-        "ticker": "SUNTECK",
-        "composite": 53.0
-      },
-      {
-        "ticker": "ICICIAMC",
-        "composite": 52.9
-      },
-      {
-        "ticker": "LTFOODS",
-        "composite": 52.9
-      },
-      {
-        "ticker": "ZFCVINDIA",
-        "composite": 52.9
-      },
-      {
-        "ticker": "JBCHEPHARM",
-        "composite": 52.8
-      },
-      {
-        "ticker": "RBLBANK",
-        "composite": 52.7
-      },
-      {
-        "ticker": "POLICYBZR",
-        "composite": 52.6
-      },
-      {
-        "ticker": "JSLL",
-        "composite": 52.6
-      },
-      {
-        "ticker": "PINELABS",
-        "composite": 52.4
-      },
-      {
-        "ticker": "KALYANKJIL",
-        "composite": 52.3
-      },
-      {
-        "ticker": "SWIGGY",
-        "composite": 52.3
-      },
-      {
-        "ticker": "AEQUS",
-        "composite": 52.3
-      },
-      {
-        "ticker": "JYOTHYLAB",
-        "composite": 52.3
-      },
-      {
-        "ticker": "ABDL",
-        "composite": 52.2
-      },
-      {
-        "ticker": "MIDHANI",
-        "composite": 52.1
-      },
-      {
-        "ticker": "QPOWER",
-        "composite": 52.0
-      },
-      {
-        "ticker": "SWANCORP",
-        "composite": 51.9
-      },
-      {
-        "ticker": "AWFIS",
-        "composite": 51.9
-      },
-      {
-        "ticker": "ICIL",
-        "composite": 51.9
-      },
-      {
-        "ticker": "STARHEALTH",
-        "composite": 51.8
-      },
-      {
-        "ticker": "SHAILY",
-        "composite": 51.8
-      },
-      {
-        "ticker": "TECHNOE",
-        "composite": 51.7
-      },
-      {
-        "ticker": "TTML",
-        "composite": 51.6
-      },
-      {
-        "ticker": "TITAGARH",
-        "composite": 51.6
-      },
-      {
-        "ticker": "ZENTEC",
-        "composite": 51.6
-      },
-      {
-        "ticker": "CENTRALBK",
-        "composite": 51.5
-      },
-      {
-        "ticker": "GMMPFAUDLR",
-        "composite": 51.5
-      },
-      {
-        "ticker": "COROMANDEL",
-        "composite": 51.4
-      },
-      {
-        "ticker": "HEG",
-        "composite": 51.4
-      },
-      {
-        "ticker": "FORCEMOT",
-        "composite": 51.3
-      },
-      {
-        "ticker": "WESTLIFE",
-        "composite": 51.3
-      },
-      {
-        "ticker": "VOLTAMP",
-        "composite": 51.2
-      },
-      {
-        "ticker": "NETWEB",
-        "composite": 51.1
-      },
-      {
-        "ticker": "KEC",
-        "composite": 51.0
-      },
-      {
-        "ticker": "TORNTPOWER",
-        "composite": 50.9
-      },
-      {
-        "ticker": "CARBORUNIV",
-        "composite": 50.9
-      },
-      {
-        "ticker": "CHAMBLFERT",
-        "composite": 50.8
-      },
-      {
-        "ticker": "PATANJALI",
-        "composite": 50.7
-      },
-      {
-        "ticker": "MRPL",
-        "composite": 50.7
-      },
-      {
-        "ticker": "SCHNEIDER",
-        "composite": 50.7
-      },
-      {
-        "ticker": "CRISIL",
-        "composite": 50.5
-      },
-      {
-        "ticker": "IDEA",
-        "composite": 50.5
-      },
-      {
-        "ticker": "EMBDL",
-        "composite": 50.5
-      },
-      {
-        "ticker": "TARC",
-        "composite": 50.5
-      },
-      {
-        "ticker": "EUREKAFORB",
-        "composite": 50.4
-      },
-      {
-        "ticker": "KNRCON",
-        "composite": 50.4
-      },
-      {
-        "ticker": "TRANSRAILL",
-        "composite": 50.4
-      },
-      {
-        "ticker": "UBL",
-        "composite": 50.0
-      },
-      {
-        "ticker": "CASTROLIND",
-        "composite": 50.0
-      },
-      {
-        "ticker": "SCI",
-        "composite": 50.0
-      },
-      {
-        "ticker": "UTIAMC",
-        "composite": 50.0
-      },
-      {
-        "ticker": "URBANCO",
-        "composite": 50.0
-      },
-      {
-        "ticker": "RVNL",
-        "composite": 49.9
-      },
-      {
-        "ticker": "ATHERENERG",
-        "composite": 49.9
-      },
-      {
-        "ticker": "ELECON",
-        "composite": 49.9
-      },
-      {
-        "ticker": "REDTAPE",
-        "composite": 49.8
-      },
-      {
-        "ticker": "SCHAEFFLER",
-        "composite": 49.7
-      },
-      {
-        "ticker": "RHIM",
-        "composite": 49.7
-      },
-      {
-        "ticker": "DBL",
-        "composite": 49.7
-      },
-      {
-        "ticker": "AIIL",
-        "composite": 49.6
-      },
-      {
-        "ticker": "CROMPTON",
-        "composite": 49.6
-      },
-      {
-        "ticker": "GODREJAGRO",
-        "composite": 49.4
-      },
-      {
-        "ticker": "ICICIGI",
-        "composite": 49.2
-      },
-      {
-        "ticker": "KSCL",
-        "composite": 49.2
-      },
-      {
-        "ticker": "NFL",
-        "composite": 49.2
-      },
-      {
-        "ticker": "DABUR",
-        "composite": 49.0
-      },
-      {
-        "ticker": "PIIND",
-        "composite": 48.9
-      },
-      {
-        "ticker": "MGL",
-        "composite": 48.9
-      },
-      {
-        "ticker": "ENGINERSIN",
-        "composite": 48.8
-      },
-      {
-        "ticker": "VMART",
-        "composite": 48.8
-      },
-      {
-        "ticker": "BLUEDART",
-        "composite": 48.7
-      },
-      {
-        "ticker": "COHANCE",
-        "composite": 48.7
-      },
-      {
-        "ticker": "IGL",
-        "composite": 48.6
-      },
-      {
-        "ticker": "JMFINANCIL",
-        "composite": 48.6
-      },
-      {
-        "ticker": "SUNTV",
-        "composite": 48.6
-      },
-      {
-        "ticker": "IRCTC",
-        "composite": 48.4
-      },
-      {
-        "ticker": "TATACOMM",
-        "composite": 48.3
-      },
-      {
-        "ticker": "MAHSCOOTER",
-        "composite": 48.2
-      },
-      {
-        "ticker": "JSWENERGY",
-        "composite": 48.1
-      },
-      {
-        "ticker": "INOXGREEN",
-        "composite": 48.1
-      },
-      {
-        "ticker": "ACI",
-        "composite": 47.9
-      },
-      {
-        "ticker": "CYIENT",
-        "composite": 47.8
-      },
-      {
-        "ticker": "KIMS",
-        "composite": 47.7
-      },
-      {
-        "ticker": "TATAINVEST",
-        "composite": 47.6
-      },
-      {
-        "ticker": "HGINFRA",
-        "composite": 47.6
-      },
-      {
-        "ticker": "PAYTM",
-        "composite": 47.4
-      },
-      {
-        "ticker": "ETHOSLTD",
-        "composite": 47.4
-      },
-      {
-        "ticker": "JSWDULUX",
-        "composite": 47.3
-      },
-      {
-        "ticker": "JPPOWER",
-        "composite": 47.3
-      },
-      {
-        "ticker": "TBOTEK",
-        "composite": 47.3
-      },
-      {
-        "ticker": "MANYAVAR",
-        "composite": 47.3
-      },
-      {
-        "ticker": "BAJAJELEC",
-        "composite": 47.0
-      },
-      {
-        "ticker": "EDELWEISS",
-        "composite": 47.0
-      },
-      {
-        "ticker": "KSB",
-        "composite": 47.0
-      },
-      {
-        "ticker": "RBA",
-        "composite": 47.0
-      },
-      {
-        "ticker": "CONCOR",
-        "composite": 46.9
-      },
-      {
-        "ticker": "LINDEINDIA",
-        "composite": 46.8
-      },
-      {
-        "ticker": "EIDPARRY",
-        "composite": 46.8
-      },
-      {
-        "ticker": "KANSAINER",
-        "composite": 46.8
-      },
-      {
-        "ticker": "KITEX",
-        "composite": 46.8
-      },
-      {
-        "ticker": "FACT",
-        "composite": 46.7
-      },
-      {
-        "ticker": "ADVENZYMES",
-        "composite": 46.7
-      },
-      {
-        "ticker": "HEMIPROP",
-        "composite": 46.6
-      },
-      {
-        "ticker": "GSFC",
-        "composite": 46.5
-      },
-      {
-        "ticker": "RALLIS",
-        "composite": 46.4
-      },
-      {
-        "ticker": "SKFINDIA",
-        "composite": 46.2
-      },
-      {
-        "ticker": "RENUKA",
-        "composite": 46.2
-      },
-      {
-        "ticker": "LXCHEM",
-        "composite": 46.1
-      },
-      {
-        "ticker": "TIINDIA",
-        "composite": 45.8
-      },
-      {
-        "ticker": "HBLENGINE",
-        "composite": 45.7
-      },
-      {
-        "ticker": "BIOCON",
-        "composite": 45.5
-      },
-      {
-        "ticker": "BLUESTONE",
-        "composite": 45.4
-      },
-      {
-        "ticker": "IREDA",
-        "composite": 45.1
-      },
-      {
-        "ticker": "ALOKINDS",
-        "composite": 45.1
-      },
-      {
-        "ticker": "SJVN",
-        "composite": 44.8
-      },
-      {
-        "ticker": "PWL",
-        "composite": 44.8
-      },
-      {
-        "ticker": "TEJASNET",
-        "composite": 44.8
-      },
-      {
-        "ticker": "VMM",
-        "composite": 44.7
-      },
-      {
-        "ticker": "BIKAJI",
-        "composite": 44.7
-      },
-      {
-        "ticker": "CAMPUS",
-        "composite": 44.5
-      },
-      {
-        "ticker": "ABFRL",
-        "composite": 44.2
-      },
-      {
-        "ticker": "BDL",
-        "composite": 44.1
-      },
-      {
-        "ticker": "THOMASCOOK",
-        "composite": 43.7
-      },
-      {
-        "ticker": "ZEEL",
-        "composite": 43.5
-      },
-      {
-        "ticker": "V2RETAIL",
-        "composite": 43.5
-      },
-      {
-        "ticker": "RPOWER",
-        "composite": 43.2
-      },
-      {
-        "ticker": "IDFCFIRSTB",
-        "composite": 43.1
-      },
-      {
-        "ticker": "INOXWIND",
-        "composite": 43.0
-      },
-      {
-        "ticker": "DBREALTY",
-        "composite": 43.0
-      },
-      {
-        "ticker": "RTNINDIA",
-        "composite": 42.4
-      },
-      {
-        "ticker": "TATACHEM",
-        "composite": 42.3
-      },
-      {
-        "ticker": "BECTORFOOD",
-        "composite": 42.3
-      },
-      {
-        "ticker": "PRSMJOHNSN",
-        "composite": 42.3
-      },
-      {
-        "ticker": "BATAINDIA",
-        "composite": 41.7
-      },
-      {
-        "ticker": "NETWORK18",
-        "composite": 41.4
-      },
-      {
-        "ticker": "AXISCADES",
-        "composite": 41.1
-      },
-      {
-        "ticker": "BALUFORGE",
-        "composite": 41.0
-      },
-      {
-        "ticker": "DEVYANI",
-        "composite": 40.8
-      },
-      {
-        "ticker": "RTNPOWER",
-        "composite": 40.4
-      },
-      {
-        "ticker": "MFSL",
-        "composite": 39.7
-      },
-      {
-        "ticker": "OLAELEC",
-        "composite": 39.5
-      },
-      {
-        "ticker": "ABLBL",
-        "composite": 39.3
-      },
-      {
-        "ticker": "RAYMONDLSL",
-        "composite": 39.2
-      },
-      {
-        "ticker": "SAMMAANCAP",
-        "composite": 38.9
-      },
-      {
-        "ticker": "SAPPHIRE",
-        "composite": 38.6
-      },
-      {
-        "ticker": "JWL",
-        "composite": 38.3
-      },
-      {
-        "ticker": "FIRSTCRY",
-        "composite": 37.6
-      },
-      {
-        "ticker": "AFCONS",
-        "composite": 36.3
-      },
-      {
-        "ticker": "VIPIND",
-        "composite": 33.1
-      }
-    ]
-  },
-  {
     "date": "2026-07-14T04:36:24.366346",
     "scores": [
       {
@@ -78142,6 +75537,2611 @@
       {
         "ticker": "BLUESTARCO",
         "composite": 36.6
+      },
+      {
+        "ticker": "FIRSTCRY",
+        "composite": 35.3
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24T02:55:17.316608",
+    "scores": [
+      {
+        "ticker": "CASTROLIND",
+        "composite": 78.1
+      },
+      {
+        "ticker": "FINCABLES",
+        "composite": 72.0
+      },
+      {
+        "ticker": "OFSS",
+        "composite": 70.2
+      },
+      {
+        "ticker": "OIL",
+        "composite": 69.7
+      },
+      {
+        "ticker": "LGEINDIA",
+        "composite": 69.0
+      },
+      {
+        "ticker": "GAEL",
+        "composite": 69.0
+      },
+      {
+        "ticker": "GLAND",
+        "composite": 68.8
+      },
+      {
+        "ticker": "HINDCOPPER",
+        "composite": 68.6
+      },
+      {
+        "ticker": "MGL",
+        "composite": 68.5
+      },
+      {
+        "ticker": "MARKSANS",
+        "composite": 68.3
+      },
+      {
+        "ticker": "SARDAEN",
+        "composite": 68.1
+      },
+      {
+        "ticker": "PTCIL",
+        "composite": 67.6
+      },
+      {
+        "ticker": "LOTUSDEV",
+        "composite": 67.3
+      },
+      {
+        "ticker": "NATIONALUM",
+        "composite": 67.2
+      },
+      {
+        "ticker": "AJANTPHARM",
+        "composite": 66.7
+      },
+      {
+        "ticker": "KPIL",
+        "composite": 66.4
+      },
+      {
+        "ticker": "INDIGOPNTS",
+        "composite": 66.4
+      },
+      {
+        "ticker": "GESHIP",
+        "composite": 66.1
+      },
+      {
+        "ticker": "MIDHANI",
+        "composite": 65.6
+      },
+      {
+        "ticker": "WABAG",
+        "composite": 65.6
+      },
+      {
+        "ticker": "NAVINFLUOR",
+        "composite": 65.5
+      },
+      {
+        "ticker": "AARTIPHARM",
+        "composite": 65.4
+      },
+      {
+        "ticker": "SMLMAH",
+        "composite": 65.3
+      },
+      {
+        "ticker": "INDGN",
+        "composite": 65.1
+      },
+      {
+        "ticker": "TBOTEK",
+        "composite": 65.1
+      },
+      {
+        "ticker": "AKUMS",
+        "composite": 65.1
+      },
+      {
+        "ticker": "CLEAN",
+        "composite": 64.9
+      },
+      {
+        "ticker": "PARADEEP",
+        "composite": 64.9
+      },
+      {
+        "ticker": "MSTCLTD",
+        "composite": 64.9
+      },
+      {
+        "ticker": "SUDARSCHEM",
+        "composite": 64.9
+      },
+      {
+        "ticker": "ASTRAL",
+        "composite": 64.7
+      },
+      {
+        "ticker": "NAUKRI",
+        "composite": 64.7
+      },
+      {
+        "ticker": "TDPOWERSYS",
+        "composite": 64.6
+      },
+      {
+        "ticker": "MRPL",
+        "composite": 64.5
+      },
+      {
+        "ticker": "DIXON",
+        "composite": 64.4
+      },
+      {
+        "ticker": "ELGIEQUIP",
+        "composite": 64.4
+      },
+      {
+        "ticker": "LTFOODS",
+        "composite": 64.4
+      },
+      {
+        "ticker": "SANSERA",
+        "composite": 64.4
+      },
+      {
+        "ticker": "CRAFTSMAN",
+        "composite": 64.2
+      },
+      {
+        "ticker": "EXIDEIND",
+        "composite": 64.1
+      },
+      {
+        "ticker": "PURVA",
+        "composite": 63.9
+      },
+      {
+        "ticker": "LAURUSLABS",
+        "composite": 63.8
+      },
+      {
+        "ticker": "ANANDRATHI",
+        "composite": 63.8
+      },
+      {
+        "ticker": "BALRAMCHIN",
+        "composite": 63.8
+      },
+      {
+        "ticker": "CDSL",
+        "composite": 63.8
+      },
+      {
+        "ticker": "QUESS",
+        "composite": 63.8
+      },
+      {
+        "ticker": "EDELWEISS",
+        "composite": 63.7
+      },
+      {
+        "ticker": "IMFA",
+        "composite": 63.7
+      },
+      {
+        "ticker": "AIIL",
+        "composite": 63.6
+      },
+      {
+        "ticker": "APARINDS",
+        "composite": 63.5
+      },
+      {
+        "ticker": "GRAVITA",
+        "composite": 63.5
+      },
+      {
+        "ticker": "ALKYLAMINE",
+        "composite": 63.5
+      },
+      {
+        "ticker": "LALPATHLAB",
+        "composite": 63.4
+      },
+      {
+        "ticker": "GODREJAGRO",
+        "composite": 63.4
+      },
+      {
+        "ticker": "ATUL",
+        "composite": 63.3
+      },
+      {
+        "ticker": "INDIAMART",
+        "composite": 63.3
+      },
+      {
+        "ticker": "SCI",
+        "composite": 63.2
+      },
+      {
+        "ticker": "GPPL",
+        "composite": 63.1
+      },
+      {
+        "ticker": "NEOGEN",
+        "composite": 63.1
+      },
+      {
+        "ticker": "CHENNPETRO",
+        "composite": 63.0
+      },
+      {
+        "ticker": "JMFINANCIL",
+        "composite": 63.0
+      },
+      {
+        "ticker": "TMB",
+        "composite": 62.9
+      },
+      {
+        "ticker": "BALKRISIND",
+        "composite": 62.8
+      },
+      {
+        "ticker": "ACMESOLAR",
+        "composite": 62.8
+      },
+      {
+        "ticker": "DCMSHRIRAM",
+        "composite": 62.8
+      },
+      {
+        "ticker": "KSB",
+        "composite": 62.8
+      },
+      {
+        "ticker": "UTLSOLAR",
+        "composite": 62.7
+      },
+      {
+        "ticker": "NAM-INDIA",
+        "composite": 62.6
+      },
+      {
+        "ticker": "SUMICHEM",
+        "composite": 62.6
+      },
+      {
+        "ticker": "AMBER",
+        "composite": 62.5
+      },
+      {
+        "ticker": "BLS",
+        "composite": 62.5
+      },
+      {
+        "ticker": "TEGA",
+        "composite": 62.5
+      },
+      {
+        "ticker": "GLENMARK",
+        "composite": 62.3
+      },
+      {
+        "ticker": "CREDITACC",
+        "composite": 62.3
+      },
+      {
+        "ticker": "JUSTDIAL",
+        "composite": 62.3
+      },
+      {
+        "ticker": "DEEPAKNTR",
+        "composite": 62.2
+      },
+      {
+        "ticker": "GRAPHITE",
+        "composite": 62.2
+      },
+      {
+        "ticker": "ASKAUTOLTD",
+        "composite": 62.2
+      },
+      {
+        "ticker": "VGUARD",
+        "composite": 62.2
+      },
+      {
+        "ticker": "WEBELSOLAR",
+        "composite": 62.2
+      },
+      {
+        "ticker": "ETHOSLTD",
+        "composite": 62.1
+      },
+      {
+        "ticker": "ARE&M",
+        "composite": 62.0
+      },
+      {
+        "ticker": "SKIPPER",
+        "composite": 62.0
+      },
+      {
+        "ticker": "LLOYDSME",
+        "composite": 61.9
+      },
+      {
+        "ticker": "MMTC",
+        "composite": 61.9
+      },
+      {
+        "ticker": "JKPAPER",
+        "composite": 61.9
+      },
+      {
+        "ticker": "KANSAINER",
+        "composite": 61.9
+      },
+      {
+        "ticker": "PGIL",
+        "composite": 61.9
+      },
+      {
+        "ticker": "VARROC",
+        "composite": 61.9
+      },
+      {
+        "ticker": "RADICO",
+        "composite": 61.8
+      },
+      {
+        "ticker": "EPL",
+        "composite": 61.8
+      },
+      {
+        "ticker": "DCBBANK",
+        "composite": 61.7
+      },
+      {
+        "ticker": "VIYASH",
+        "composite": 61.6
+      },
+      {
+        "ticker": "ENDURANCE",
+        "composite": 61.5
+      },
+      {
+        "ticker": "MINDACORP",
+        "composite": 61.5
+      },
+      {
+        "ticker": "MTARTECH",
+        "composite": 61.5
+      },
+      {
+        "ticker": "LUMAXTECH",
+        "composite": 61.4
+      },
+      {
+        "ticker": "PETRONET",
+        "composite": 61.3
+      },
+      {
+        "ticker": "AARTIIND",
+        "composite": 61.3
+      },
+      {
+        "ticker": "JPPOWER",
+        "composite": 61.3
+      },
+      {
+        "ticker": "TI",
+        "composite": 61.3
+      },
+      {
+        "ticker": "HEG",
+        "composite": 61.2
+      },
+      {
+        "ticker": "MAHSEAMLES",
+        "composite": 61.2
+      },
+      {
+        "ticker": "MARICO",
+        "composite": 61.1
+      },
+      {
+        "ticker": "EIEL",
+        "composite": 61.1
+      },
+      {
+        "ticker": "PRAJIND",
+        "composite": 61.1
+      },
+      {
+        "ticker": "SUPRIYA",
+        "composite": 61.1
+      },
+      {
+        "ticker": "AUROPHARMA",
+        "composite": 61.0
+      },
+      {
+        "ticker": "WELCORP",
+        "composite": 61.0
+      },
+      {
+        "ticker": "KPRMILL",
+        "composite": 60.9
+      },
+      {
+        "ticker": "HFCL",
+        "composite": 60.9
+      },
+      {
+        "ticker": "CUPID",
+        "composite": 60.9
+      },
+      {
+        "ticker": "JAMNAAUTO",
+        "composite": 60.9
+      },
+      {
+        "ticker": "JAIBALAJI",
+        "composite": 60.8
+      },
+      {
+        "ticker": "LXCHEM",
+        "composite": 60.8
+      },
+      {
+        "ticker": "SHAILY",
+        "composite": 60.8
+      },
+      {
+        "ticker": "AFFLE",
+        "composite": 60.7
+      },
+      {
+        "ticker": "SMARTWORKS",
+        "composite": 60.7
+      },
+      {
+        "ticker": "KTKBANK",
+        "composite": 60.5
+      },
+      {
+        "ticker": "RALLIS",
+        "composite": 60.5
+      },
+      {
+        "ticker": "IIFL",
+        "composite": 60.4
+      },
+      {
+        "ticker": "THOMASCOOK",
+        "composite": 60.4
+      },
+      {
+        "ticker": "CARBORUNIV",
+        "composite": 60.3
+      },
+      {
+        "ticker": "CYIENT",
+        "composite": 60.3
+      },
+      {
+        "ticker": "HONASA",
+        "composite": 60.3
+      },
+      {
+        "ticker": "HCC",
+        "composite": 60.3
+      },
+      {
+        "ticker": "ABSLAMC",
+        "composite": 60.2
+      },
+      {
+        "ticker": "BLUEJET",
+        "composite": 60.2
+      },
+      {
+        "ticker": "NETWEB",
+        "composite": 60.2
+      },
+      {
+        "ticker": "IFBIND",
+        "composite": 60.2
+      },
+      {
+        "ticker": "RATEGAIN",
+        "composite": 60.2
+      },
+      {
+        "ticker": "HCG",
+        "composite": 60.1
+      },
+      {
+        "ticker": "SPARC",
+        "composite": 60.1
+      },
+      {
+        "ticker": "NMDC",
+        "composite": 60.0
+      },
+      {
+        "ticker": "CHAMBLFERT",
+        "composite": 60.0
+      },
+      {
+        "ticker": "REDINGTON",
+        "composite": 60.0
+      },
+      {
+        "ticker": "STAR",
+        "composite": 60.0
+      },
+      {
+        "ticker": "POONAWALLA",
+        "composite": 59.9
+      },
+      {
+        "ticker": "VIJAYA",
+        "composite": 59.9
+      },
+      {
+        "ticker": "360ONE",
+        "composite": 59.8
+      },
+      {
+        "ticker": "DEEPAKFERT",
+        "composite": 59.7
+      },
+      {
+        "ticker": "PCBL",
+        "composite": 59.7
+      },
+      {
+        "ticker": "URBANCO",
+        "composite": 59.7
+      },
+      {
+        "ticker": "CERA",
+        "composite": 59.6
+      },
+      {
+        "ticker": "ESCORTS",
+        "composite": 59.5
+      },
+      {
+        "ticker": "WELSPUNLIV",
+        "composite": 59.5
+      },
+      {
+        "ticker": "SAMHI",
+        "composite": 59.5
+      },
+      {
+        "ticker": "SANOFICONR",
+        "composite": 59.5
+      },
+      {
+        "ticker": "BERGEPAINT",
+        "composite": 59.4
+      },
+      {
+        "ticker": "COCHINSHIP",
+        "composite": 59.4
+      },
+      {
+        "ticker": "FLUOROCHEM",
+        "composite": 59.4
+      },
+      {
+        "ticker": "ICICIAMC",
+        "composite": 59.4
+      },
+      {
+        "ticker": "ASHAPURMIN",
+        "composite": 59.4
+      },
+      {
+        "ticker": "DYNAMATECH",
+        "composite": 59.4
+      },
+      {
+        "ticker": "AIAENG",
+        "composite": 59.3
+      },
+      {
+        "ticker": "IFCI",
+        "composite": 59.3
+      },
+      {
+        "ticker": "GHCL",
+        "composite": 59.3
+      },
+      {
+        "ticker": "HAPPSTMNDS",
+        "composite": 59.3
+      },
+      {
+        "ticker": "SANDUMA",
+        "composite": 59.3
+      },
+      {
+        "ticker": "VIKRAMSOLR",
+        "composite": 59.3
+      },
+      {
+        "ticker": "PREMIERENE",
+        "composite": 59.1
+      },
+      {
+        "ticker": "VTL",
+        "composite": 59.0
+      },
+      {
+        "ticker": "RUBICON",
+        "composite": 59.0
+      },
+      {
+        "ticker": "CAPLIPOINT",
+        "composite": 58.9
+      },
+      {
+        "ticker": "ENTERO",
+        "composite": 58.9
+      },
+      {
+        "ticker": "SKFINDUS",
+        "composite": 58.9
+      },
+      {
+        "ticker": "TANLA",
+        "composite": 58.8
+      },
+      {
+        "ticker": "JSWCEMENT",
+        "composite": 58.7
+      },
+      {
+        "ticker": "AETHER",
+        "composite": 58.7
+      },
+      {
+        "ticker": "VOLTAMP",
+        "composite": 58.7
+      },
+      {
+        "ticker": "ASAHIINDIA",
+        "composite": 58.6
+      },
+      {
+        "ticker": "GABRIEL",
+        "composite": 58.6
+      },
+      {
+        "ticker": "RRKABEL",
+        "composite": 58.6
+      },
+      {
+        "ticker": "GMMPFAUDLR",
+        "composite": 58.6
+      },
+      {
+        "ticker": "LLOYDSENT",
+        "composite": 58.6
+      },
+      {
+        "ticker": "SKYGOLD",
+        "composite": 58.6
+      },
+      {
+        "ticker": "SHAREINDIA",
+        "composite": 58.6
+      },
+      {
+        "ticker": "GODREJIND",
+        "composite": 58.5
+      },
+      {
+        "ticker": "BAYERCROP",
+        "composite": 58.5
+      },
+      {
+        "ticker": "JSWDULUX",
+        "composite": 58.5
+      },
+      {
+        "ticker": "IIFLCAPS",
+        "composite": 58.5
+      },
+      {
+        "ticker": "JUBLINGREA",
+        "composite": 58.4
+      },
+      {
+        "ticker": "STLTECH",
+        "composite": 58.4
+      },
+      {
+        "ticker": "PAYTM",
+        "composite": 58.3
+      },
+      {
+        "ticker": "PNBHOUSING",
+        "composite": 58.3
+      },
+      {
+        "ticker": "EMIL",
+        "composite": 58.3
+      },
+      {
+        "ticker": "PRUDENT",
+        "composite": 58.3
+      },
+      {
+        "ticker": "UJJIVANSFB",
+        "composite": 58.3
+      },
+      {
+        "ticker": "ANURAS",
+        "composite": 58.2
+      },
+      {
+        "ticker": "FEDFINA",
+        "composite": 58.2
+      },
+      {
+        "ticker": "PNCINFRA",
+        "composite": 58.2
+      },
+      {
+        "ticker": "VMART",
+        "composite": 58.2
+      },
+      {
+        "ticker": "COROMANDEL",
+        "composite": 58.1
+      },
+      {
+        "ticker": "TITAGARH",
+        "composite": 58.1
+      },
+      {
+        "ticker": "BBOX",
+        "composite": 58.1
+      },
+      {
+        "ticker": "JSFB",
+        "composite": 58.1
+      },
+      {
+        "ticker": "CRISIL",
+        "composite": 58.0
+      },
+      {
+        "ticker": "CPPLUS",
+        "composite": 58.0
+      },
+      {
+        "ticker": "AVL",
+        "composite": 58.0
+      },
+      {
+        "ticker": "INDUSTOWER",
+        "composite": 57.9
+      },
+      {
+        "ticker": "MANAPPURAM",
+        "composite": 57.9
+      },
+      {
+        "ticker": "ASHOKLEY",
+        "composite": 57.8
+      },
+      {
+        "ticker": "BANKINDIA",
+        "composite": 57.8
+      },
+      {
+        "ticker": "IPCALAB",
+        "composite": 57.8
+      },
+      {
+        "ticker": "ARVIND",
+        "composite": 57.8
+      },
+      {
+        "ticker": "KRBL",
+        "composite": 57.8
+      },
+      {
+        "ticker": "INDIANB",
+        "composite": 57.7
+      },
+      {
+        "ticker": "SUBROS",
+        "composite": 57.7
+      },
+      {
+        "ticker": "HBLENGINE",
+        "composite": 57.6
+      },
+      {
+        "ticker": "CRAMC",
+        "composite": 57.6
+      },
+      {
+        "ticker": "IDEA",
+        "composite": 57.5
+      },
+      {
+        "ticker": "BALAMINES",
+        "composite": 57.5
+      },
+      {
+        "ticker": "GNFC",
+        "composite": 57.5
+      },
+      {
+        "ticker": "ASTRAMICRO",
+        "composite": 57.4
+      },
+      {
+        "ticker": "GLAXO",
+        "composite": 57.3
+      },
+      {
+        "ticker": "IDFCFIRSTB",
+        "composite": 57.3
+      },
+      {
+        "ticker": "HSCL",
+        "composite": 57.3
+      },
+      {
+        "ticker": "RAIN",
+        "composite": 57.3
+      },
+      {
+        "ticker": "GRWRHITECH",
+        "composite": 57.2
+      },
+      {
+        "ticker": "THYROCARE",
+        "composite": 57.2
+      },
+      {
+        "ticker": "MEDANTA",
+        "composite": 57.1
+      },
+      {
+        "ticker": "CUB",
+        "composite": 57.1
+      },
+      {
+        "ticker": "ITI",
+        "composite": 57.1
+      },
+      {
+        "ticker": "JAYNECOIND",
+        "composite": 57.1
+      },
+      {
+        "ticker": "ORKLAINDIA",
+        "composite": 57.1
+      },
+      {
+        "ticker": "SCHAEFFLER",
+        "composite": 57.0
+      },
+      {
+        "ticker": "TATAINVEST",
+        "composite": 57.0
+      },
+      {
+        "ticker": "CIEINDIA",
+        "composite": 57.0
+      },
+      {
+        "ticker": "ELECON",
+        "composite": 57.0
+      },
+      {
+        "ticker": "POLYMED",
+        "composite": 57.0
+      },
+      {
+        "ticker": "DATAMATICS",
+        "composite": 57.0
+      },
+      {
+        "ticker": "INDIAGLYCO",
+        "composite": 57.0
+      },
+      {
+        "ticker": "RELAXO",
+        "composite": 57.0
+      },
+      {
+        "ticker": "ZAGGLE",
+        "composite": 57.0
+      },
+      {
+        "ticker": "COFORGE",
+        "composite": 56.9
+      },
+      {
+        "ticker": "KEI",
+        "composite": 56.9
+      },
+      {
+        "ticker": "MOTILALOFS",
+        "composite": 56.9
+      },
+      {
+        "ticker": "CGCL",
+        "composite": 56.9
+      },
+      {
+        "ticker": "3MINDIA",
+        "composite": 56.8
+      },
+      {
+        "ticker": "DEVYANI",
+        "composite": 56.8
+      },
+      {
+        "ticker": "DIACABS",
+        "composite": 56.8
+      },
+      {
+        "ticker": "BDL",
+        "composite": 56.7
+      },
+      {
+        "ticker": "SPLPETRO",
+        "composite": 56.7
+      },
+      {
+        "ticker": "ELLEN",
+        "composite": 56.7
+      },
+      {
+        "ticker": "JUBLFOOD",
+        "composite": 56.6
+      },
+      {
+        "ticker": "GALLANTT",
+        "composite": 56.6
+      },
+      {
+        "ticker": "RCF",
+        "composite": 56.6
+      },
+      {
+        "ticker": "EMCURE",
+        "composite": 56.5
+      },
+      {
+        "ticker": "AZAD",
+        "composite": 56.5
+      },
+      {
+        "ticker": "KRN",
+        "composite": 56.5
+      },
+      {
+        "ticker": "SURYAROSNI",
+        "composite": 56.5
+      },
+      {
+        "ticker": "NBCC",
+        "composite": 56.4
+      },
+      {
+        "ticker": "PGEL",
+        "composite": 56.4
+      },
+      {
+        "ticker": "ALIVUS",
+        "composite": 56.4
+      },
+      {
+        "ticker": "PRICOLLTD",
+        "composite": 56.4
+      },
+      {
+        "ticker": "HDBFS",
+        "composite": 56.3
+      },
+      {
+        "ticker": "ACE",
+        "composite": 56.3
+      },
+      {
+        "ticker": "HERITGFOOD",
+        "composite": 56.3
+      },
+      {
+        "ticker": "BHARTIHEXA",
+        "composite": 56.2
+      },
+      {
+        "ticker": "WHIRLPOOL",
+        "composite": 56.2
+      },
+      {
+        "ticker": "CRIZAC",
+        "composite": 56.2
+      },
+      {
+        "ticker": "POLYCAB",
+        "composite": 56.0
+      },
+      {
+        "ticker": "NSLNISP",
+        "composite": 56.0
+      },
+      {
+        "ticker": "ELECTCAST",
+        "composite": 56.0
+      },
+      {
+        "ticker": "GOKEX",
+        "composite": 56.0
+      },
+      {
+        "ticker": "RBA",
+        "composite": 56.0
+      },
+      {
+        "ticker": "SHAKTIPUMP",
+        "composite": 56.0
+      },
+      {
+        "ticker": "NTPCGREEN",
+        "composite": 55.9
+      },
+      {
+        "ticker": "PERSISTENT",
+        "composite": 55.9
+      },
+      {
+        "ticker": "APLLTD",
+        "composite": 55.9
+      },
+      {
+        "ticker": "OSWALPUMPS",
+        "composite": 55.9
+      },
+      {
+        "ticker": "GICRE",
+        "composite": 55.8
+      },
+      {
+        "ticker": "BBTC",
+        "composite": 55.8
+      },
+      {
+        "ticker": "PFIZER",
+        "composite": 55.8
+      },
+      {
+        "ticker": "SAFARI",
+        "composite": 55.8
+      },
+      {
+        "ticker": "GVT&D",
+        "composite": 55.7
+      },
+      {
+        "ticker": "SAPPHIRE",
+        "composite": 55.7
+      },
+      {
+        "ticker": "INDUSINDBK",
+        "composite": 55.5
+      },
+      {
+        "ticker": "JSWENERGY",
+        "composite": 55.5
+      },
+      {
+        "ticker": "CANHLIFE",
+        "composite": 55.5
+      },
+      {
+        "ticker": "SBFC",
+        "composite": 55.5
+      },
+      {
+        "ticker": "RELIGARE",
+        "composite": 55.5
+      },
+      {
+        "ticker": "HOMEFIRST",
+        "composite": 55.4
+      },
+      {
+        "ticker": "FIEMIND",
+        "composite": 55.4
+      },
+      {
+        "ticker": "SHILPAMED",
+        "composite": 55.4
+      },
+      {
+        "ticker": "NATCOPHARM",
+        "composite": 55.3
+      },
+      {
+        "ticker": "LLOYDSENGG",
+        "composite": 55.3
+      },
+      {
+        "ticker": "LENSKART",
+        "composite": 55.2
+      },
+      {
+        "ticker": "TORNTPOWER",
+        "composite": 55.2
+      },
+      {
+        "ticker": "KFINTECH",
+        "composite": 55.2
+      },
+      {
+        "ticker": "AUBANK",
+        "composite": 55.1
+      },
+      {
+        "ticker": "MAHABANK",
+        "composite": 55.1
+      },
+      {
+        "ticker": "SONATSOFTW",
+        "composite": 55.1
+      },
+      {
+        "ticker": "AEGISLOG",
+        "composite": 55.0
+      },
+      {
+        "ticker": "AARTIDRUGS",
+        "composite": 55.0
+      },
+      {
+        "ticker": "CCAVENUE",
+        "composite": 55.0
+      },
+      {
+        "ticker": "UBL",
+        "composite": 54.8
+      },
+      {
+        "ticker": "ANANTRAJ",
+        "composite": 54.8
+      },
+      {
+        "ticker": "CROMPTON",
+        "composite": 54.8
+      },
+      {
+        "ticker": "IRCON",
+        "composite": 54.8
+      },
+      {
+        "ticker": "JUBLPHARMA",
+        "composite": 54.8
+      },
+      {
+        "ticker": "PNGJL",
+        "composite": 54.8
+      },
+      {
+        "ticker": "YATHARTH",
+        "composite": 54.7
+      },
+      {
+        "ticker": "CONCOR",
+        "composite": 54.6
+      },
+      {
+        "ticker": "LTF",
+        "composite": 54.6
+      },
+      {
+        "ticker": "LTTS",
+        "composite": 54.6
+      },
+      {
+        "ticker": "GPIL",
+        "composite": 54.6
+      },
+      {
+        "ticker": "SAILIFE",
+        "composite": 54.6
+      },
+      {
+        "ticker": "CORONA",
+        "composite": 54.6
+      },
+      {
+        "ticker": "AGARWALEYE",
+        "composite": 54.6
+      },
+      {
+        "ticker": "STYRENIX",
+        "composite": 54.6
+      },
+      {
+        "ticker": "KARURVYSYA",
+        "composite": 54.5
+      },
+      {
+        "ticker": "CAPILLARY",
+        "composite": 54.5
+      },
+      {
+        "ticker": "MANORAMA",
+        "composite": 54.5
+      },
+      {
+        "ticker": "DABUR",
+        "composite": 54.4
+      },
+      {
+        "ticker": "MPHASIS",
+        "composite": 54.4
+      },
+      {
+        "ticker": "STARHEALTH",
+        "composite": 54.4
+      },
+      {
+        "ticker": "GMRP&UI",
+        "composite": 54.4
+      },
+      {
+        "ticker": "ORIENTCEM",
+        "composite": 54.4
+      },
+      {
+        "ticker": "CENTRALBK",
+        "composite": 54.3
+      },
+      {
+        "ticker": "NCC",
+        "composite": 54.3
+      },
+      {
+        "ticker": "SRF",
+        "composite": 54.2
+      },
+      {
+        "ticker": "ICIL",
+        "composite": 54.2
+      },
+      {
+        "ticker": "HEXT",
+        "composite": 54.0
+      },
+      {
+        "ticker": "ATHERENERG",
+        "composite": 54.0
+      },
+      {
+        "ticker": "ZENTEC",
+        "composite": 54.0
+      },
+      {
+        "ticker": "KPIGREEN",
+        "composite": 54.0
+      },
+      {
+        "ticker": "BECTORFOOD",
+        "composite": 54.0
+      },
+      {
+        "ticker": "PTC",
+        "composite": 54.0
+      },
+      {
+        "ticker": "TVSSCS",
+        "composite": 54.0
+      },
+      {
+        "ticker": "QPOWER",
+        "composite": 53.9
+      },
+      {
+        "ticker": "HEROMOTOCO",
+        "composite": 53.8
+      },
+      {
+        "ticker": "POWERINDIA",
+        "composite": 53.8
+      },
+      {
+        "ticker": "AFCONS",
+        "composite": 53.8
+      },
+      {
+        "ticker": "ZFCVINDIA",
+        "composite": 53.8
+      },
+      {
+        "ticker": "IOB",
+        "composite": 53.7
+      },
+      {
+        "ticker": "OLAELEC",
+        "composite": 53.7
+      },
+      {
+        "ticker": "TATATECH",
+        "composite": 53.7
+      },
+      {
+        "ticker": "AHLUCONT",
+        "composite": 53.7
+      },
+      {
+        "ticker": "SAIL",
+        "composite": 53.6
+      },
+      {
+        "ticker": "TIINDIA",
+        "composite": 53.6
+      },
+      {
+        "ticker": "BLUEDART",
+        "composite": 53.6
+      },
+      {
+        "ticker": "NUVAMA",
+        "composite": 53.6
+      },
+      {
+        "ticker": "TRAVELFOOD",
+        "composite": 53.6
+      },
+      {
+        "ticker": "WOCKPHARMA",
+        "composite": 53.6
+      },
+      {
+        "ticker": "ADVENZYMES",
+        "composite": 53.6
+      },
+      {
+        "ticker": "TECHNOE",
+        "composite": 53.5
+      },
+      {
+        "ticker": "UTIAMC",
+        "composite": 53.5
+      },
+      {
+        "ticker": "TARC",
+        "composite": 53.5
+      },
+      {
+        "ticker": "MANKIND",
+        "composite": 53.4
+      },
+      {
+        "ticker": "SHYAMMETL",
+        "composite": 53.4
+      },
+      {
+        "ticker": "SONACOMS",
+        "composite": 53.4
+      },
+      {
+        "ticker": "PCJEWELLER",
+        "composite": 53.4
+      },
+      {
+        "ticker": "PVRINOX",
+        "composite": 53.3
+      },
+      {
+        "ticker": "WAKEFIT",
+        "composite": 53.3
+      },
+      {
+        "ticker": "AVALON",
+        "composite": 53.2
+      },
+      {
+        "ticker": "EMAMILTD",
+        "composite": 53.1
+      },
+      {
+        "ticker": "SKFINDIA",
+        "composite": 53.1
+      },
+      {
+        "ticker": "WESTLIFE",
+        "composite": 53.1
+      },
+      {
+        "ticker": "LUPIN",
+        "composite": 53.0
+      },
+      {
+        "ticker": "SUNDARMFIN",
+        "composite": 53.0
+      },
+      {
+        "ticker": "ONESOURCE",
+        "composite": 53.0
+      },
+      {
+        "ticker": "CENTURYPLY",
+        "composite": 53.0
+      },
+      {
+        "ticker": "LICI",
+        "composite": 52.9
+      },
+      {
+        "ticker": "CMSINFO",
+        "composite": 52.9
+      },
+      {
+        "ticker": "BALUFORGE",
+        "composite": 52.7
+      },
+      {
+        "ticker": "ANTHEM",
+        "composite": 52.6
+      },
+      {
+        "ticker": "CESC",
+        "composite": 52.6
+      },
+      {
+        "ticker": "FIVESTAR",
+        "composite": 52.6
+      },
+      {
+        "ticker": "EUREKAFORB",
+        "composite": 52.6
+      },
+      {
+        "ticker": "CHALET",
+        "composite": 52.5
+      },
+      {
+        "ticker": "BSE",
+        "composite": 52.4
+      },
+      {
+        "ticker": "NYKAA",
+        "composite": 52.4
+      },
+      {
+        "ticker": "VMM",
+        "composite": 52.4
+      },
+      {
+        "ticker": "KAJARIACER",
+        "composite": 52.4
+      },
+      {
+        "ticker": "MEESHO",
+        "composite": 52.4
+      },
+      {
+        "ticker": "RBLBANK",
+        "composite": 52.4
+      },
+      {
+        "ticker": "TRITURBINE",
+        "composite": 52.4
+      },
+      {
+        "ticker": "PICCADIL",
+        "composite": 52.4
+      },
+      {
+        "ticker": "VOLTAS",
+        "composite": 52.3
+      },
+      {
+        "ticker": "GMRAIRPORT",
+        "composite": 52.2
+      },
+      {
+        "ticker": "M&MFIN",
+        "composite": 52.2
+      },
+      {
+        "ticker": "IDBI",
+        "composite": 52.2
+      },
+      {
+        "ticker": "JBCHEPHARM",
+        "composite": 52.2
+      },
+      {
+        "ticker": "EMBDL",
+        "composite": 52.2
+      },
+      {
+        "ticker": "NAVA",
+        "composite": 52.1
+      },
+      {
+        "ticker": "GOKULAGRO",
+        "composite": 52.1
+      },
+      {
+        "ticker": "NESCO",
+        "composite": 52.1
+      },
+      {
+        "ticker": "GROWW",
+        "composite": 52.0
+      },
+      {
+        "ticker": "CHOLAHLDNG",
+        "composite": 52.0
+      },
+      {
+        "ticker": "ABCAPITAL",
+        "composite": 51.9
+      },
+      {
+        "ticker": "BEML",
+        "composite": 51.9
+      },
+      {
+        "ticker": "GRANULES",
+        "composite": 51.9
+      },
+      {
+        "ticker": "PIRAMALFIN",
+        "composite": 51.9
+      },
+      {
+        "ticker": "EQUITASBNK",
+        "composite": 51.9
+      },
+      {
+        "ticker": "NAZARA",
+        "composite": 51.8
+      },
+      {
+        "ticker": "OPTIEMUS",
+        "composite": 51.8
+      },
+      {
+        "ticker": "PARKHOSPS",
+        "composite": 51.8
+      },
+      {
+        "ticker": "FEDERALBNK",
+        "composite": 51.7
+      },
+      {
+        "ticker": "OBEROIRLTY",
+        "composite": 51.7
+      },
+      {
+        "ticker": "ENGINERSIN",
+        "composite": 51.7
+      },
+      {
+        "ticker": "RAILTEL",
+        "composite": 51.7
+      },
+      {
+        "ticker": "STYL",
+        "composite": 51.7
+      },
+      {
+        "ticker": "WELENT",
+        "composite": 51.7
+      },
+      {
+        "ticker": "YESBANK",
+        "composite": 51.6
+      },
+      {
+        "ticker": "ABREL",
+        "composite": 51.6
+      },
+      {
+        "ticker": "IGIL",
+        "composite": 51.5
+      },
+      {
+        "ticker": "TATACHEM",
+        "composite": 51.5
+      },
+      {
+        "ticker": "JINDALSAW",
+        "composite": 51.4
+      },
+      {
+        "ticker": "NEULANDLAB",
+        "composite": 51.4
+      },
+      {
+        "ticker": "MASTEK",
+        "composite": 51.4
+      },
+      {
+        "ticker": "SBICARD",
+        "composite": 51.3
+      },
+      {
+        "ticker": "AWL",
+        "composite": 51.2
+      },
+      {
+        "ticker": "FORTIS",
+        "composite": 51.2
+      },
+      {
+        "ticker": "SUZLON",
+        "composite": 51.2
+      },
+      {
+        "ticker": "BANDHANBNK",
+        "composite": 51.2
+      },
+      {
+        "ticker": "KEC",
+        "composite": 51.2
+      },
+      {
+        "ticker": "SYRMA",
+        "composite": 51.2
+      },
+      {
+        "ticker": "INDIASHLTR",
+        "composite": 51.2
+      },
+      {
+        "ticker": "SHRIPISTON",
+        "composite": 51.2
+      },
+      {
+        "ticker": "REFEX",
+        "composite": 51.1
+      },
+      {
+        "ticker": "SAATVIKGL",
+        "composite": 51.1
+      },
+      {
+        "ticker": "RENUKA",
+        "composite": 51.1
+      },
+      {
+        "ticker": "TIMETECHNO",
+        "composite": 51.1
+      },
+      {
+        "ticker": "EMMVEE",
+        "composite": 50.9
+      },
+      {
+        "ticker": "TRIDENT",
+        "composite": 50.9
+      },
+      {
+        "ticker": "BELRISE",
+        "composite": 50.7
+      },
+      {
+        "ticker": "BSOFT",
+        "composite": 50.7
+      },
+      {
+        "ticker": "CAMS",
+        "composite": 50.7
+      },
+      {
+        "ticker": "METROPOLIS",
+        "composite": 50.7
+      },
+      {
+        "ticker": "ABDL",
+        "composite": 50.6
+      },
+      {
+        "ticker": "THELEELA",
+        "composite": 50.6
+      },
+      {
+        "ticker": "HONAUT",
+        "composite": 50.5
+      },
+      {
+        "ticker": "AEQUS",
+        "composite": 50.5
+      },
+      {
+        "ticker": "TRIVENI",
+        "composite": 50.5
+      },
+      {
+        "ticker": "MANYAVAR",
+        "composite": 50.5
+      },
+      {
+        "ticker": "KALYANKJIL",
+        "composite": 50.4
+      },
+      {
+        "ticker": "MRF",
+        "composite": 50.4
+      },
+      {
+        "ticker": "SUDEEPPHRM",
+        "composite": 50.4
+      },
+      {
+        "ticker": "ATGL",
+        "composite": 50.3
+      },
+      {
+        "ticker": "TATAELXSI",
+        "composite": 50.3
+      },
+      {
+        "ticker": "BLACKBUCK",
+        "composite": 50.3
+      },
+      {
+        "ticker": "SOUTHBANK",
+        "composite": 50.3
+      },
+      {
+        "ticker": "ICICIPRULI",
+        "composite": 50.2
+      },
+      {
+        "ticker": "DATAPATTNS",
+        "composite": 50.2
+      },
+      {
+        "ticker": "NUVOCO",
+        "composite": 50.2
+      },
+      {
+        "ticker": "AWFIS",
+        "composite": 50.2
+      },
+      {
+        "ticker": "BAJAJELEC",
+        "composite": 50.2
+      },
+      {
+        "ticker": "GREAVESCOT",
+        "composite": 50.2
+      },
+      {
+        "ticker": "JYOTHYLAB",
+        "composite": 50.2
+      },
+      {
+        "ticker": "NIACL",
+        "composite": 50.1
+      },
+      {
+        "ticker": "UNOMINDA",
+        "composite": 50.1
+      },
+      {
+        "ticker": "GMDCLTD",
+        "composite": 50.1
+      },
+      {
+        "ticker": "IRB",
+        "composite": 50.1
+      },
+      {
+        "ticker": "ATLANTAELE",
+        "composite": 50.1
+      },
+      {
+        "ticker": "KNRCON",
+        "composite": 50.1
+      },
+      {
+        "ticker": "RAYMONDLSL",
+        "composite": 50.1
+      },
+      {
+        "ticker": "DALBHARAT",
+        "composite": 50.0
+      },
+      {
+        "ticker": "PATANJALI",
+        "composite": 50.0
+      },
+      {
+        "ticker": "NHPC",
+        "composite": 49.9
+      },
+      {
+        "ticker": "SAGILITY",
+        "composite": 49.9
+      },
+      {
+        "ticker": "SUPREMEIND",
+        "composite": 49.8
+      },
+      {
+        "ticker": "APTUS",
+        "composite": 49.7
+      },
+      {
+        "ticker": "CANFINHOME",
+        "composite": 49.7
+      },
+      {
+        "ticker": "OLECTRA",
+        "composite": 49.7
+      },
+      {
+        "ticker": "LICHSGFIN",
+        "composite": 49.6
+      },
+      {
+        "ticker": "TENNIND",
+        "composite": 49.6
+      },
+      {
+        "ticker": "ACI",
+        "composite": 49.6
+      },
+      {
+        "ticker": "BANCOINDIA",
+        "composite": 49.6
+      },
+      {
+        "ticker": "RATNAMANI",
+        "composite": 49.6
+      },
+      {
+        "ticker": "TRANSRAILL",
+        "composite": 49.6
+      },
+      {
+        "ticker": "BAJAJHFL",
+        "composite": 49.4
+      },
+      {
+        "ticker": "AAVAS",
+        "composite": 49.4
+      },
+      {
+        "ticker": "CHOICEIN",
+        "composite": 49.4
+      },
+      {
+        "ticker": "FSL",
+        "composite": 49.4
+      },
+      {
+        "ticker": "ECLERX",
+        "composite": 49.4
+      },
+      {
+        "ticker": "THANGAMAYL",
+        "composite": 49.2
+      },
+      {
+        "ticker": "APOLLOTYRE",
+        "composite": 49.1
+      },
+      {
+        "ticker": "HUDCO",
+        "composite": 49.1
+      },
+      {
+        "ticker": "CONCORDBIO",
+        "composite": 49.1
+      },
+      {
+        "ticker": "MCX",
+        "composite": 49.0
+      },
+      {
+        "ticker": "RVNL",
+        "composite": 48.9
+      },
+      {
+        "ticker": "CCL",
+        "composite": 48.8
+      },
+      {
+        "ticker": "SUNTV",
+        "composite": 48.8
+      },
+      {
+        "ticker": "CARTRADE",
+        "composite": 48.7
+      },
+      {
+        "ticker": "RKFORGE",
+        "composite": 48.7
+      },
+      {
+        "ticker": "RPOWER",
+        "composite": 48.7
+      },
+      {
+        "ticker": "ANUP",
+        "composite": 48.7
+      },
+      {
+        "ticker": "IKS",
+        "composite": 48.6
+      },
+      {
+        "ticker": "JLHL",
+        "composite": 48.6
+      },
+      {
+        "ticker": "KIRLPNU",
+        "composite": 48.6
+      },
+      {
+        "ticker": "ANGELONE",
+        "composite": 48.5
+      },
+      {
+        "ticker": "GRSE",
+        "composite": 48.5
+      },
+      {
+        "ticker": "ASTERDM",
+        "composite": 48.4
+      },
+      {
+        "ticker": "RITES",
+        "composite": 48.4
+      },
+      {
+        "ticker": "ZENSARTECH",
+        "composite": 48.4
+      },
+      {
+        "ticker": "SAREGAMA",
+        "composite": 48.3
+      },
+      {
+        "ticker": "TIPSMUSIC",
+        "composite": 48.3
+      },
+      {
+        "ticker": "BLUESTONE",
+        "composite": 48.2
+      },
+      {
+        "ticker": "ABBOTINDIA",
+        "composite": 48.1
+      },
+      {
+        "ticker": "JKLAKSHMI",
+        "composite": 48.1
+      },
+      {
+        "ticker": "VAIBHAVGBL",
+        "composite": 48.1
+      },
+      {
+        "ticker": "THERMAX",
+        "composite": 47.9
+      },
+      {
+        "ticker": "USHAMART",
+        "composite": 47.9
+      },
+      {
+        "ticker": "PRSMJOHNSN",
+        "composite": 47.9
+      },
+      {
+        "ticker": "SJVN",
+        "composite": 47.7
+      },
+      {
+        "ticker": "BRIGADE",
+        "composite": 47.7
+      },
+      {
+        "ticker": "TEJASNET",
+        "composite": 47.7
+      },
+      {
+        "ticker": "BORORENEW",
+        "composite": 47.6
+      },
+      {
+        "ticker": "CSBBANK",
+        "composite": 47.6
+      },
+      {
+        "ticker": "BIOCON",
+        "composite": 47.5
+      },
+      {
+        "ticker": "COLPAL",
+        "composite": 47.5
+      },
+      {
+        "ticker": "SENCO",
+        "composite": 47.5
+      },
+      {
+        "ticker": "ALKEM",
+        "composite": 47.4
+      },
+      {
+        "ticker": "JSWINFRA",
+        "composite": 47.4
+      },
+      {
+        "ticker": "MEDPLUS",
+        "composite": 47.4
+      },
+      {
+        "ticker": "WAAREEENER",
+        "composite": 47.3
+      },
+      {
+        "ticker": "PIIND",
+        "composite": 47.2
+      },
+      {
+        "ticker": "PAGEIND",
+        "composite": 47.2
+      },
+      {
+        "ticker": "COHANCE",
+        "composite": 47.2
+      },
+      {
+        "ticker": "ERIS",
+        "composite": 47.2
+      },
+      {
+        "ticker": "CEATLTD",
+        "composite": 47.1
+      },
+      {
+        "ticker": "UCOBANK",
+        "composite": 47.1
+      },
+      {
+        "ticker": "ZEEL",
+        "composite": 47.1
+      },
+      {
+        "ticker": "AURIONPRO",
+        "composite": 47.1
+      },
+      {
+        "ticker": "HEMIPROP",
+        "composite": 47.1
+      },
+      {
+        "ticker": "IXIGO",
+        "composite": 47.1
+      },
+      {
+        "ticker": "RAINBOW",
+        "composite": 47.0
+      },
+      {
+        "ticker": "HAVELLS",
+        "composite": 46.9
+      },
+      {
+        "ticker": "NLCINDIA",
+        "composite": 46.9
+      },
+      {
+        "ticker": "AADHARHFC",
+        "composite": 46.9
+      },
+      {
+        "ticker": "INOXGREEN",
+        "composite": 46.9
+      },
+      {
+        "ticker": "J&KBANK",
+        "composite": 46.8
+      },
+      {
+        "ticker": "NH",
+        "composite": 46.8
+      },
+      {
+        "ticker": "TARIL",
+        "composite": 46.8
+      },
+      {
+        "ticker": "BIRLACORPN",
+        "composite": 46.8
+      },
+      {
+        "ticker": "PARAS",
+        "composite": 46.8
+      },
+      {
+        "ticker": "JKCEMENT",
+        "composite": 46.7
+      },
+      {
+        "ticker": "SWIGGY",
+        "composite": 46.7
+      },
+      {
+        "ticker": "NIVABUPA",
+        "composite": 46.7
+      },
+      {
+        "ticker": "ICICIGI",
+        "composite": 46.5
+      },
+      {
+        "ticker": "AVANTIFEED",
+        "composite": 46.5
+      },
+      {
+        "ticker": "BIKAJI",
+        "composite": 46.4
+      },
+      {
+        "ticker": "IEX",
+        "composite": 46.4
+      },
+      {
+        "ticker": "TSFINV",
+        "composite": 46.4
+      },
+      {
+        "ticker": "AEGISVOPAK",
+        "composite": 46.3
+      },
+      {
+        "ticker": "DBL",
+        "composite": 46.3
+      },
+      {
+        "ticker": "CEMPRO",
+        "composite": 46.2
+      },
+      {
+        "ticker": "APLAPOLLO",
+        "composite": 45.9
+      },
+      {
+        "ticker": "ASHOKA",
+        "composite": 45.8
+      },
+      {
+        "ticker": "PHOENIXLTD",
+        "composite": 45.6
+      },
+      {
+        "ticker": "PRESTIGE",
+        "composite": 45.6
+      },
+      {
+        "ticker": "KIMS",
+        "composite": 45.6
+      },
+      {
+        "ticker": "SWANCORP",
+        "composite": 45.6
+      },
+      {
+        "ticker": "NFL",
+        "composite": 45.5
+      },
+      {
+        "ticker": "RTNPOWER",
+        "composite": 45.5
+      },
+      {
+        "ticker": "PFOCUS",
+        "composite": 45.4
+      },
+      {
+        "ticker": "BATAINDIA",
+        "composite": 45.3
+      },
+      {
+        "ticker": "PRIVISCL",
+        "composite": 45.3
+      },
+      {
+        "ticker": "HINDPETRO",
+        "composite": 45.2
+      },
+      {
+        "ticker": "KITEX",
+        "composite": 45.2
+      },
+      {
+        "ticker": "JBMA",
+        "composite": 45.1
+      },
+      {
+        "ticker": "HGINFRA",
+        "composite": 45.1
+      },
+      {
+        "ticker": "KSCL",
+        "composite": 45.1
+      },
+      {
+        "ticker": "SFL",
+        "composite": 45.1
+      },
+      {
+        "ticker": "JSL",
+        "composite": 45.0
+      },
+      {
+        "ticker": "CELLO",
+        "composite": 45.0
+      },
+      {
+        "ticker": "GODFRYPHLP",
+        "composite": 44.9
+      },
+      {
+        "ticker": "MAPMYINDIA",
+        "composite": 44.9
+      },
+      {
+        "ticker": "DOMS",
+        "composite": 44.9
+      },
+      {
+        "ticker": "FACT",
+        "composite": 44.9
+      },
+      {
+        "ticker": "TATACOMM",
+        "composite": 44.8
+      },
+      {
+        "ticker": "BHARATFORG",
+        "composite": 44.7
+      },
+      {
+        "ticker": "IRCTC",
+        "composite": 44.7
+      },
+      {
+        "ticker": "ZYDUSWELL",
+        "composite": 44.7
+      },
+      {
+        "ticker": "ROUTE",
+        "composite": 44.7
+      },
+      {
+        "ticker": "POWERMECH",
+        "composite": 44.3
+      },
+      {
+        "ticker": "POLICYBZR",
+        "composite": 44.2
+      },
+      {
+        "ticker": "KAYNES",
+        "composite": 44.1
+      },
+      {
+        "ticker": "LATENTVIEW",
+        "composite": 44.1
+      },
+      {
+        "ticker": "SYNGENE",
+        "composite": 44.1
+      },
+      {
+        "ticker": "AXISCADES",
+        "composite": 44.0
+      },
+      {
+        "ticker": "ALOKINDS",
+        "composite": 44.0
+      },
+      {
+        "ticker": "INOXINDIA",
+        "composite": 44.0
+      },
+      {
+        "ticker": "JAINREC",
+        "composite": 43.8
+      },
+      {
+        "ticker": "KIRLOSBROS",
+        "composite": 43.8
+      },
+      {
+        "ticker": "EIDPARRY",
+        "composite": 43.6
+      },
+      {
+        "ticker": "IGL",
+        "composite": 43.6
+      },
+      {
+        "ticker": "KPITTECH",
+        "composite": 43.5
+      },
+      {
+        "ticker": "TIMKEN",
+        "composite": 43.5
+      },
+      {
+        "ticker": "MAHSCOOTER",
+        "composite": 43.5
+      },
+      {
+        "ticker": "BHEL",
+        "composite": 43.4
+      },
+      {
+        "ticker": "PPLPHARMA",
+        "composite": 43.4
+      },
+      {
+        "ticker": "ACC",
+        "composite": 43.3
+      },
+      {
+        "ticker": "ACUTAAS",
+        "composite": 43.2
+      },
+      {
+        "ticker": "NEWGEN",
+        "composite": 43.2
+      },
+      {
+        "ticker": "GILLETTE",
+        "composite": 43.1
+      },
+      {
+        "ticker": "CAMPUS",
+        "composite": 43.1
+      },
+      {
+        "ticker": "IREDA",
+        "composite": 43.0
+      },
+      {
+        "ticker": "INOXWIND",
+        "composite": 43.0
+      },
+      {
+        "ticker": "REDTAPE",
+        "composite": 43.0
+      },
+      {
+        "ticker": "V2RETAIL",
+        "composite": 43.0
+      },
+      {
+        "ticker": "LINDEINDIA",
+        "composite": 42.9
+      },
+      {
+        "ticker": "PINELABS",
+        "composite": 42.9
+      },
+      {
+        "ticker": "JSLL",
+        "composite": 42.9
+      },
+      {
+        "ticker": "FORCEMOT",
+        "composite": 42.5
+      },
+      {
+        "ticker": "MSUMI",
+        "composite": 42.5
+      },
+      {
+        "ticker": "TEXRAIL",
+        "composite": 42.4
+      },
+      {
+        "ticker": "KIRLOSENG",
+        "composite": 42.3
+      },
+      {
+        "ticker": "MOIL",
+        "composite": 42.3
+      },
+      {
+        "ticker": "WAAREERTL",
+        "composite": 42.3
+      },
+      {
+        "ticker": "DELHIVERY",
+        "composite": 42.2
+      },
+      {
+        "ticker": "INTELLECT",
+        "composite": 42.2
+      },
+      {
+        "ticker": "JYOTICNC",
+        "composite": 42.2
+      },
+      {
+        "ticker": "SUNTECK",
+        "composite": 42.1
+      },
+      {
+        "ticker": "GSFC",
+        "composite": 41.8
+      },
+      {
+        "ticker": "RTNINDIA",
+        "composite": 41.8
+      },
+      {
+        "ticker": "GODREJPROP",
+        "composite": 41.7
+      },
+      {
+        "ticker": "WEWORK",
+        "composite": 41.7
+      },
+      {
+        "ticker": "TTML",
+        "composite": 41.5
+      },
+      {
+        "ticker": "SHARDACROP",
+        "composite": 41.5
+      },
+      {
+        "ticker": "ITCHOTELS",
+        "composite": 41.3
+      },
+      {
+        "ticker": "ARVINDFASN",
+        "composite": 41.2
+      },
+      {
+        "ticker": "MFSL",
+        "composite": 41.1
+      },
+      {
+        "ticker": "FINPIPE",
+        "composite": 41.0
+      },
+      {
+        "ticker": "JKTYRE",
+        "composite": 40.9
+      },
+      {
+        "ticker": "ABFRL",
+        "composite": 40.7
+      },
+      {
+        "ticker": "SWSOLAR",
+        "composite": 40.7
+      },
+      {
+        "ticker": "RAMCOCEM",
+        "composite": 40.6
+      },
+      {
+        "ticker": "NETWORK18",
+        "composite": 40.6
+      },
+      {
+        "ticker": "EIHOTEL",
+        "composite": 40.5
+      },
+      {
+        "ticker": "GODIGIT",
+        "composite": 40.5
+      },
+      {
+        "ticker": "DBREALTY",
+        "composite": 40.5
+      },
+      {
+        "ticker": "APOLLO",
+        "composite": 40.4
+      },
+      {
+        "ticker": "STARCEMENT",
+        "composite": 40.2
+      },
+      {
+        "ticker": "IONEXCHANG",
+        "composite": 40.1
+      },
+      {
+        "ticker": "RHIM",
+        "composite": 40.0
+      },
+      {
+        "ticker": "UPL",
+        "composite": 39.1
+      },
+      {
+        "ticker": "SCHNEIDER",
+        "composite": 39.1
+      },
+      {
+        "ticker": "SAMMAANCAP",
+        "composite": 38.9
+      },
+      {
+        "ticker": "SOBHA",
+        "composite": 38.9
+      },
+      {
+        "ticker": "LEMONTREE",
+        "composite": 38.6
+      },
+      {
+        "ticker": "ABLBL",
+        "composite": 38.4
+      },
+      {
+        "ticker": "PWL",
+        "composite": 38.4
+      },
+      {
+        "ticker": "JWL",
+        "composite": 38.2
+      },
+      {
+        "ticker": "SIGNATURE",
+        "composite": 38.2
+      },
+      {
+        "ticker": "INDIACEM",
+        "composite": 38.1
+      },
+      {
+        "ticker": "BLUESTARCO",
+        "composite": 36.6
+      },
+      {
+        "ticker": "VIPIND",
+        "composite": 36.0
       },
       {
         "ticker": "FIRSTCRY",
